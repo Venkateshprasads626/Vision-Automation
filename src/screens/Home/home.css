@@ -203,6 +203,20 @@
     margin-left: 400px;
     cursor: pointer;
   }
+
+  .card1:hover{
+    transform: scale(1.2);
+  }
+
+  .card2:hover{
+    transform: scale(1.2);
+  }
+  .card3:hover{
+    transform: scale(1.2);
+  }
+  .card4:hover{
+    transform: scale(1.2);
+  }
 .producttype1{
   margin-left: 60px;
   margin-top: 30px;
