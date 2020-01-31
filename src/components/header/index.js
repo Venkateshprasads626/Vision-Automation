@@ -14,8 +14,8 @@ const Header = props => (
             </div>
                  
             <ul className="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/products">Our Products</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/products">Our Products</NavLink></li>
             <li><a href="">About Us</a></li>
             <li><a href="">Contact Us</a></li>
             </ul>
