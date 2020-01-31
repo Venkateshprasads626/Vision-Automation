@@ -1,0 +1,291 @@
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 308px;
+    bottom: 0px;
+    position: relative;
+    
+  }
+  
+  .logo1{
+    width: 180px;
+    height: 150px;
+    margin-top: -10px;
+  }
+  .box2{
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 350px;
+  }
+  .secondhr{
+    position: absolute;
+    width: 900px;
+    border: 1px solid white;
+    margin-top: 230px;
+    margin-left: 20%;
+  }
+  
+  .addresstext{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #BDBDBD;
+    margin-left: 33%;
+    position: absolute;
+    top: 48%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  
+  }
+  .text1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #BDBDBD;
+    margin-left: 33%;
+    position: absolute;
+    top: 22%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .text2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #BDBDBD;
+    margin-left: 33%;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .contacttext{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #BDBDBD;
+    margin-left: 33%;
+    position: absolute;
+    top: 48%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .contact{
+    margin-left: 400px;
+  }
+  .navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 350px;
+    margin-top: 250px;
+  }
+  .navbar li{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-family: Poppins;
+    font-size: 20px;
+  }
+  .dot4{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(180deg, #3EB971 0%, #459CA9 100%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -50px;
+    margin-left: 800px;
+    cursor: pointer;
+  }
+  .fa-angle-up{
+    font-size: 50px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 804px;
+    cursor: pointer;
+  }
+  .upangle{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 300px;
+  }
+  .footercontent{
+    margin-left: 100px;
+  }
+  /* this is for pc */
+  
+  @media screen and (max-width: 1440px) {
+    .footercontent{
+      margin-left: -10px;
+    }
+    .secondhr{
+      margin-top: 230px;
+    }
+    .box2{
+      margin-left: 270px;
+    }
+    .navbar{
+      margin-left: 350px;
+    }
+    .upangle{
+      margin-left: 300px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .footercontent{
+      margin-left: -150px;
+    }
+    .secondhr{
+      width: 850px;
+    }
+    .box2{
+      margin-left: 250px;
+    }
+    .text1{
+      margin-left: 450px;
+    }
+    .addresstext{
+      font-size: 14px;
+      margin-left: 450px;
+    }
+    .text2{
+      font-size: 14px;
+    }
+    .contacttext{
+      font-size: 14px;
+    }
+    .contact{
+      margin-left: 450px;
+    }
+    .navbar{
+      width: 50%;
+      margin-left: 250px;
+    }
+    .upangle{
+      margin-left: 200px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .box2{
+      margin-left: 210px;
+    }
+    .logo1{
+      width: 100px;
+      height: 99px;
+    }
+    .secondhr{
+      width: 700px;
+    }
+    .text1{
+      font-size: 12px;
+      margin-left: 340px;
+      margin-top: 35px;
+    }
+    .addresstext{
+      font-size: 12px;
+      line-height: 18px;
+      margin-left: 340px;
+    }
+    .text2{
+      font-size: 12px;
+      margin-left: 200px;
+      margin-top: 20px;
+    }
+    .contacttext{
+      font-size: 12px;
+      line-height: 18px;
+      margin-left: 200px;
+    }
+    .navbar li{
+      font-size: 16px;
+      margin-left: -20px;
+    }
+    .upangle{
+      margin-left: 10px;
+    }
+  }
+  /* this is for mobile phones */
+  @media screen and (max-width: 425px) {
+    footer{
+      height: 130px;
+    }
+    .box2{
+      margin-left: 170px;
+    }
+    .logo1{
+      width: 40px;
+      height: 40px;
+    }
+    .text1{
+      font-size: 8px;
+      margin-left: 230px;
+      margin-top: 5px;
+    }
+    .addresstext{
+      font-size: 8px;
+      line-height: 11px;
+      margin-left: 230px;
+    }
+    .text2{
+      font-size: 8px;
+      margin-left: -40px;
+      margin-top: 5px;
+    }
+    .contacttext{
+      font-size: 8px;
+      margin-left: -40px;
+    }
+    .secondhr{
+      margin-top: 103px;
+      width: 380px;
+      margin-left: 170px;
+    }
+    
+    .navbar{
+      margin-top: -3px;
+      width: 50%;
+      margin-left: 150px;
+    }
+    .navbar li{
+      font-size: 10px;
+    }
+    .dot4{
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background: linear-gradient(180deg, #3EB971 0%, #459CA9 100%);
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: -50px;
+      margin-left: 800px;
+      cursor: pointer;
+    }
+    .fa-angle-up{
+      font-size: 20px;
+      position: absolute;
+      margin-top: -52px;
+      margin-left: 804px;
+      cursor: pointer;
+    }
+    .upangle{
+      margin-left: -300px;
+      margin-top: 30px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    
+  }

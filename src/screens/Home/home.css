@@ -1,0 +1,367 @@
+
+  .slider {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 500px;
+    overflow: hidden;
+  
+  }
+  
+  .slide_viewer {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .slide:first-child {
+    display: block;
+  }
+  
+ 
+  
+  .slide_buttons {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 620px;
+    text-align: center;
+  }
+  
+  a.slide_btn {
+    color: #474544;
+    font-size: 42px;
+    margin: 0 0.175em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .slide_btn.active, .slide_btn:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .directional_nav {
+    height: 340px;
+    margin: 0 auto;
+    max-width: 940px;
+    position: relative;
+    top: -340px;
+  }
+  
+  .previous_btn {
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+  }
+  
+  .next_btn {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 100px;
+    top: 0;
+  }
+  
+  .previous_btn, .next_btn {
+    cursor: pointer;
+    height: 65px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    width: 65px;
+  }
+  
+  .previous_btn:hover, .next_btn:hover {
+    opacity: 1;
+  }
+  
+  .Groupimage{
+    width: 100%;
+  }
+
+
+  .About{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+  }
+
+  .card{
+    width: 400px;
+    height: 350px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    float: right;
+    margin-right: 500px;
+   margin-top: 10px;
+  }
+  .cardh1{
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .aboutustext{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 5px;
+    text-align: center;
+    color: #000000;
+    margin-left: 380px;
+  }
+  .t{
+    margin-top: 50px;
+  }
+  .tt{
+    margin-top: 50px;
+  }
+  h3{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 200px;
+  }
+  .red{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 300px;
+  }
+  .categories{
+      width: 100%;
+      height: 950px;
+      margin-top: -50px;
+  }
+.cards{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+  .card1{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+}
+  
+  .card2{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-left: 400px;
+    cursor: pointer;
+  }
+  .card3{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  .card4{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: -284px;
+    margin-left: 400px;
+    cursor: pointer;
+  }
+.producttype1{
+  margin-left: 60px;
+  margin-top: 30px;
+} 
+.producttype2{
+  margin-left: 40px;
+  margin-top: 30px;
+} 
+.producttype3{
+  margin-left: 50px;
+  margin-top: 20px;
+} 
+.producttype4{
+  margin-left: 20px;
+  margin-top: 30px;
+} 
+.categoriestext1{
+  text-align: center;
+  font-family: Poppins;
+  margin-left: -140px;
+}
+.categoriestext2{
+  text-align: center;
+  margin-top: -70px;
+  margin-left: 200px;
+  font-family: Poppins;
+}
+.categoriestext3{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.button{
+  width: 174px;
+  height: 51px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 4px;
+  background: #4BFFFF;
+  border-radius: 10px;
+  margin-left: 840px;
+  margin-top: 750px;
+  }
+
+/* this is for pc */
+ @media screen and (max-width: 1440px) {
+    .aboutustext{
+      margin-left: 200px;
+    }
+    .card{
+      margin-right: 280px;
+    }
+    .cards{
+      margin-left: 350px;
+    }
+    .button{
+      margin-left: 640px;
+    }
+ }
+
+ @media screen and (max-width: 1024px) {
+  .aboutustext{
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 4px;
+  }
+  .t{
+    margin-top: 30px;
+  }
+  .tt{
+    margin-top: 30px;
+  }
+  .card{
+    margin-right: 150px;
+    width: 300px;
+    height: 250px;
+  }
+  .cards{
+    margin-left: 145px;
+  }
+  .button{
+    margin-left: 440px;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .About{
+    width: 100%;
+    height: 500px;
+    margin-top: -200px;
+  }
+  .aboutustext{
+    font-size: 11px;
+  }
+  .card{
+    width: 250px;
+    height: 240px;
+    background: #C4C4C4;
+    border-radius: 4px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 5px;
+  }
+  .cardh1{
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .cards{
+    margin-left: 65px;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 290px;
+    height: 250px;
+  }
+  .card3{
+    margin-top: 50px;
+  }
+  .card4{
+    margin-top: -250px;
+  }
+  .producttype1{
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+  }
+  .producttype2{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .producttype3{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .producttype4{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .card2{
+    margin-left: 350px;
+  }
+  .card4{
+    margin-left: 350px;
+  }
+  .button{
+    margin-left: 300px;
+    margin-top: 650px;
+  }
+}
