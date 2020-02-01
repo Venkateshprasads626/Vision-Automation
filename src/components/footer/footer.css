@@ -296,5 +296,10 @@ footer{
     }
   }
   @media screen and (max-width: 375px) {
-    
+    footer{
+      padding: 20px;
+    }
+    .footercontent{
+      margin-left: -200px;
+    }
   }

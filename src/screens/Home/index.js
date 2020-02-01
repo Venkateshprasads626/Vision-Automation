@@ -75,9 +75,9 @@ const Home = () => (
                     <div className="card4">
                         <img src={type4} className="producttype4"  alt="keyboard" />
                     </div>
-                   
+                    <a href="/"><button className="button" type="button">MORE</button></a>  
                 </div>
-                <a href="/"><button className="button" type="button">MORE</button></a>  
+                
             </div>
 
 
