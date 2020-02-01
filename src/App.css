@@ -119,6 +119,11 @@ nav{
 
 /* this is media query for pc */
 
+@media screen and (max-width: 1440px) {
+  html,body{
+    overflow-x: hidden;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .nav-links{

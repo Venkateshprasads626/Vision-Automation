@@ -379,3 +379,82 @@
     margin-top: 650px;
   }
 }
+
+/* this is for mobile phones */
+@media screen and (max-width: 425px) {
+.About{
+  margin-top: -350px;
+}
+.cardh1{
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 70px;
+}
+.card{
+  margin-top: -5px;
+  margin-right: 122px;
+}
+.aboutustext{
+  font-size: 10px;
+  margin-top: 240px;
+  margin-left: 15px;
+}
+.categories{
+  width: 100%;
+  height: 1450px;
+  margin-top: -50px;
+  background: white;
+}
+.categoriestext1{
+  margin-left: -160px;
+}
+.categoriestext2{
+  margin-left: 158px;
+}
+.categoriestext3{
+  margin-left: 10px;
+}
+.card1{
+  margin-left: 5px;
+}
+.card2{
+  margin-left: 5px;
+  margin-top: 300px;
+}
+.card3{
+  margin-left: 5px;
+  margin-top: 50px;
+}
+.card4{
+  margin-left: 5px;
+  margin-top: 50px;
+}
+.button{
+  margin-top: 1250px;
+  margin-left: 130px;
+}
+}
+
+@media screen and (max-width: 375px) {
+  .card{
+    margin-right: 90px;
+  }
+  .aboutustext{
+    margin-left: -5px;
+  }
+  .categoriestext1{
+    margin-left: -180px;
+  }
+  .categoriestext2{
+    margin-left: 135px;
+  }
+  .categoriestext3{
+    margin-left: 5px;
+  }
+  .cards{
+    margin-left: 38px;
+  }
+  .button{
+    margin-left: 100px;
+  }
+}
