@@ -222,7 +222,7 @@ footer{
   @media screen and (max-width: 425px) {
     footer{
       height: 130px;
-      padding: 30px;
+      padding: 35px;
       width: 100%;
     }
     .footercontent{
@@ -296,9 +296,7 @@ footer{
     }
   }
   @media screen and (max-width: 375px) {
-    footer{
-      padding: 20px;
-    }
+   
     .footercontent{
       margin-left: -200px;
     }

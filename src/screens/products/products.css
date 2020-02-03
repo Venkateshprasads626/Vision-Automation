@@ -141,3 +141,89 @@ margin-left: 50px;
       margin-top: 50px;
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    .cards2{
+      margin-left: 150px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .producttext1{
+      margin-left: -190px;
+    }
+    .producttext2{
+      margin-left: 80px;
+    }
+    .producttext3{
+      margin-right: 50px;
+    }
+    .listof-products{
+      height: 165vh;
+    }
+    .cards2{
+      margin-left: 10px;
+    }
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+      width: 200px;
+      height: 200px;
+    }
+    .card11,.card33,.card55,.card77,.card99{
+      margin-left: 150px;
+    }
+    .card33{
+      margin-top: 50px;
+    }
+    .card44{
+      margin-top: -200px;
+    }
+  }
+
+  /* this is for mobile phones */
+  @media screen and (max-width: 425px) {
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+      width: 180px;
+      height: 160px;
+    }
+    .cards2{
+      margin-left: -126px;
+      margin-top: 10px;
+    }
+    .listof-products{
+      height: 120vh;
+    }
+    .card33{
+      margin-top: 15px;
+    }
+    .card44{
+      margin-top: -160px;
+    }
+    .card55,.card66,.card77,.card88,.card99,.card10{
+      margin-top: 15px;
+    }
+    .card22,.card44,.card66,.card88,.card10{
+      margin-left: 350px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+      width: 150px;
+      height: 130px;
+    }
+    .card44{
+      margin-top: -130px;
+    }
+    .cards2{
+      margin-left: -120px;
+    }
+    .card11,.card33,.card55,.card77,.card99{
+    margin-left: 150px;
+    }
+    .card22,.card44,.card66,.card88,.card10{
+      margin-left: 320px;
+    }
+    .listof-products{
+      height: 100vh;
+    }
+  }
+ 

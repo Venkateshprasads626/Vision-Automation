@@ -14,10 +14,22 @@ const Header = props => (
             </div>
                  
             <ul className="nav-links">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/products">Our Products</NavLink></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li>
+                <NavLink to="/">Home</NavLink>
+                <span className="dot dot1 active"><i class="fa fa-home" aria-hidden="true"></i></span>
+            </li>
+            <li>
+                <NavLink to="/products">Our Products</NavLink>
+                <span className="dot dot2"> <i className="fa fa-desktop" aria-hidden="true"></i></span>
+            </li>
+            <li>
+                <NavLink to="">About Us</NavLink>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </li>
+            <li>
+                <NavLink to="">Contact Us</NavLink>
+                <span className="dot dot3"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            </li>
             </ul>
         </nav>          
         </div>

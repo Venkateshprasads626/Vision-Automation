@@ -253,7 +253,7 @@
 }
 
 .button{
-  width: 174px;
+  width: 154px;
   height: 51px;
   font-family: Montserrat;
   font-style: normal;
@@ -407,10 +407,13 @@
 
 }
 .categoriestext1{
+  font-size: 25px;
   margin-left: -160px;
 }
 .categoriestext2{
-  margin-left: 158px;
+  font-size: 25px;
+  margin-top: -55px;
+  margin-left: 110px;
 }
 .categoriestext3{
   margin-left: 10px;
@@ -481,6 +484,9 @@
 }
 
 @media screen and (max-width: 375px) {
+  .categories{
+    height: 550px;
+  }
   .card{
     margin-right: 80px;
   }
@@ -500,9 +506,40 @@
     margin-left: 5px;
   }
   .cards{
+   
     margin-left: 38px;
   }
   .button{
     margin-left: 100px;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 150px;
+    height: 130px;
+  }
+  .producttype1{
+    width: 100px;
+    height: 90px;
+  }
+  .producttype2{
+    width: 100px;
+    height: 90px;
+  }
+  .producttype3{
+    width: 100px;
+    height: 90px;
+  }
+  .producttype4{
+    width: 100px;
+    height: 90px;
+  }
+  .card1,.card3{
+    margin-left: -10px;
+  }
+  .card4{
+    margin-top: -130px;
+  }
+  .button{
+    width: 130px;
+    margin-left: 80px;
   }
 }
