@@ -2,6 +2,8 @@ import React from 'react';
 import './products.css'
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import type1 from '../../Images/type1.svg';
+
 
 
 const products = () => (
@@ -14,8 +16,11 @@ const products = () => (
                 <div className="listof-products">
                     <div className="cards2">
                         <div className="card11">
-
+                            <a href="/Moniter">
+                            <img src={type1} className="producttype1" alt="motherboard" />
+                            </a>
                         </div>
+                      
                         <div className="card22">
                             
                         </div>

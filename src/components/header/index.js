@@ -27,7 +27,7 @@ const Header = props => (
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
             </li>
             <li>
-                <NavLink to="">Contact Us</NavLink>
+                <NavLink to="/Contact">Contact Us</NavLink>
                 <span className="dot dot3"><i class="fa fa-phone" aria-hidden="true"></i></span>
             </li>
             </ul>

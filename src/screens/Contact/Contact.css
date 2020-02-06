@@ -1,0 +1,138 @@
+.formbox{
+    position: absolute;
+    width: 90%;
+    height: 700px;
+    background: #FFFFFF;
+    border: 5px solid #6FCF97;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-left: 89px;
+    margin-top: 10px;
+}
+
+.formhead{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.formhr{
+    width: 150px;
+    background: black;
+    height: 2px;
+    margin-top: -3px;
+}
+
+.register-box{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 1100px;
+    margin-top: -520px;
+}
+.pic{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+.vl5{
+    width: 1px;
+    background: black;
+    height: 500px;
+    margin-top: 30px;
+    border: 2px solid #000000;
+    margin-left: 830px;
+ 
+}
+
+input{
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 3px solid #7D7D7D;
+    box-sizing: border-box;
+    border-radius: 50px;
+    
+}
+
+.register-box p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+}
+
+.name,.phone{
+        width: 270px;
+}
+.email,.org,.sser{
+    width: 400px;
+}
+:placeholder-shown{
+    font-style: italic;
+}
+
+.fa-phone{
+    position: relative;
+    font-size: 25px;
+    left: -40px;
+    top: 3px;
+    color: #7D7D7D;
+    
+}
+.sser{
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    height: 42px;
+    background: white;
+    border: 3px solid #7D7D7D;
+}
+.fa-chevron-down{
+    position: absolute;
+    font-size: 25px;
+    color: #7D7D7D;
+    margin-left: 369px;
+    margin-top: -53px;
+}
+
+.submitbtn{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    background: #6FCF97;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+    margin-left: -350px;
+    margin-top: -50px;
+    cursor: pointer;
+
+}
+
+/* this is for pc */
+@media screen and (max-width: 1440px) {
+    .pic{
+        margin-left: 50px;
+    }
+    .vl5{
+        margin-left: 650px;
+    }
+    .register-box{
+        margin-left: 780px;
+    }
+    .submitbtn{
+        margin-top: -30px;
+        margin-left: -200px;
+    }
+}

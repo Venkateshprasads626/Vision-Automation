@@ -3,7 +3,6 @@ import './home.css'
 import $ from 'jquery'
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-
 import Group1 from '../../Images/Group1.svg';
 import Group2 from '../../Images/Group2.svg';
 import Group3 from '../../Images/Group3.svg';
@@ -75,7 +74,7 @@ const Home = () => (
                     <div className="card4">
                         <img src={type4} className="producttype4"  alt="keyboard" />
                     </div>
-                    <a href="/"><button className="button" type="button">MORE</button></a>  
+                    <a href="/products"><button className="button" type="button">MORE</button></a>  
                 </div>
                 
             </div>
