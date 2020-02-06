@@ -8,7 +8,7 @@ import pic from '../../Images/pic.svg'
 const Contact = () => (
     <div>
         <Header/>
-            <div className="Contact" style={{height: "120vh"}}>
+            <div className="Contact">
             <div className="formbox">
                     <h1 className="formhead">Get connected</h1>
                     <hr className="formhr"></hr>
@@ -42,7 +42,7 @@ const Contact = () => (
                 </div>
             </div>
         
-        <Footer/>
+        <Footer/>    
     </div>
 );
 
