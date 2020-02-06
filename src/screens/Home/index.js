@@ -11,7 +11,7 @@ import type1 from '../../Images/type1.svg';
 import type2 from '../../Images/type2.svg';
 import type3 from '../../Images/type3.svg';
 import type4 from '../../Images/type4.svg';
-
+import { Link } from 'react-router-dom'
    
 
 const Home = () => (
@@ -74,7 +74,7 @@ const Home = () => (
                     <div className="card4">
                         <img src={type4} className="producttype4"  alt="keyboard" />
                     </div>
-                    <a href="/products"><button className="button" type="button">MORE</button></a>  
+                    <Link to="/products"><button className="button" type="button">MORE</button></Link>  
                 </div>
                 
             </div>
