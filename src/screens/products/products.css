@@ -13,13 +13,13 @@
 }
 .producttext3{
     font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-margin-top: -15px;
-margin-left: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 50px;
 }
 
 .listof-products{
@@ -35,7 +35,7 @@ margin-left: 50px;
 .card11{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     float: left;
@@ -45,7 +45,7 @@ margin-left: 50px;
   .card22{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-left: 400px;
@@ -54,7 +54,7 @@ margin-left: 50px;
   .card33{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
@@ -63,7 +63,7 @@ margin-left: 50px;
   .card44{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: -284px;
@@ -73,7 +73,7 @@ margin-left: 50px;
   .card55{
     width: 340px;
     height: 283px;
-    background:#F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
@@ -83,7 +83,7 @@ margin-left: 50px;
   .card66{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
@@ -93,7 +93,7 @@ margin-left: 50px;
   .card77{
     width: 340px;
     height: 283px;
-    background:#F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
@@ -103,7 +103,7 @@ margin-left: 50px;
   .card88{
     width: 340px;
     height: 283px;
-    background: #F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
@@ -113,23 +113,84 @@ margin-left: 50px;
   .card99{
     width: 340px;
     height: 283px;
-    background:#F2F2F2;
+    background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 50px;
     float: left;
+    margin-left: 201px;
     cursor: pointer;
   }
-  .card10{
-    width: 340px;
-    height: 283px;
-    background: #F2F2F2;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+
+  .producttype5{
+    margin-left: 30px;
     margin-top: 50px;
-    margin-left: 400px;
-    cursor: pointer;
   }
+  .producttype6{
+    margin-top: 30px;
+  }
+  .producttype7{
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .producttype8{
+    margin-top: 30px;
+    margin-left: 48px;
+  }
+  .card11:hover{
+    transform: scale(1.2);
+  }
+  .card22:hover{
+    transform: scale(1.2);
+  }
+  .card33:hover{
+    transform: scale(1.2);
+  }
+  .card44:hover{
+    transform: scale(1.2);
+  }
+  .card55:hover{
+    transform: scale(1.2);
+  }
+  .card66:hover{
+    transform: scale(1.2);
+  }
+  .card77:hover{
+    transform: scale(1.2);
+  }
+  .card88:hover{
+    transform: scale(1.2);
+  }
+  .card99:hover{
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* this is for pc */
   @media screen and (max-width: 1440px) {
@@ -163,7 +224,7 @@ margin-left: 50px;
     .cards2{
       margin-left: 10px;
     }
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
       width: 200px;
       height: 200px;
     }
@@ -180,7 +241,7 @@ margin-left: 50px;
 
   /* this is for mobile phones */
   @media screen and (max-width: 425px) {
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
       width: 180px;
       height: 160px;
     }
@@ -197,16 +258,16 @@ margin-left: 50px;
     .card44{
       margin-top: -160px;
     }
-    .card55,.card66,.card77,.card88,.card99,.card10{
+    .card55,.card66,.card77,.card88,.card99{
       margin-top: 15px;
     }
-    .card22,.card44,.card66,.card88,.card10{
+    .card22,.card44,.card66,.card88{
       margin-left: 350px;
     }
   }
 
   @media screen and (max-width: 375px) {
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card10{
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
       width: 150px;
       height: 130px;
     }

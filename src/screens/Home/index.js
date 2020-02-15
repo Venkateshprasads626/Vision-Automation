@@ -62,17 +62,23 @@ const Home = () => (
                 <h1 className="categoriestext2" style={{color:"red"}}>Categories</h1>
                 <p className="categoriestext3">Pharetra risus velit rutrum id at ultrices mus arcu.</p>
                 <div className="cards">
+                    <a href="/products">
                     <div className="card1">
                         <img src={type1} className="producttype1" alt="motherboard" />
+                        <h6 style={{textAlign: "center"}}>MOTHER BOARDS</h6>
                     </div>
+                    </a>
                     <div className="card2">
                         <img src={type2} className="producttype2"  alt="moniters" />
+                        <h6 style={{textAlign: "center"}}>MONITORS</h6>
                     </div>
                     <div className="card3">
                         <img src={type3} className="producttype3"  alt="printers" />
+                        <h6 style={{textAlign: "center"}}>PRINTERS</h6>
                     </div>
                     <div className="card4">
                         <img src={type4} className="producttype4"  alt="keyboard" />
+                        <h6  className="caption"style={{textAlign: "center"}}>COMPUTER PERIPHERALS</h6> 
                     </div>
                     <Link to="/products"><button className="button" type="button">MORE</button></Link>  
                 </div>

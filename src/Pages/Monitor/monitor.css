@@ -1,0 +1,94 @@
+.Monitor{
+    width: 80%;
+    height: 50vh;
+    margin-bottom: 50px;
+    margin-left: 160px;
+    margin-top: 60px;
+   
+}
+.monitor-header{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.brands-categories2{
+    position: absolute;
+    width: 762px;
+    height: 345px;
+    background: #FFFFFF;
+    border: 3px solid rgba(79, 79, 79, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-left: 330px;
+}
+.asus1{
+    position: absolute;
+    width: 178px;
+    height: 93px;
+    margin-top: 35px;
+}
+.samsung{
+    position: absolute;
+ 
+    width: 190px;
+    height: 72px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+.hp{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+.Lg{
+    position: absolute;
+    width: 116px;
+    height: 56px;
+    margin-left: 610px;
+    margin-top: 40px;
+}
+.Viewsonic{
+    position: absolute;
+    width: 190px;
+    height: 103px;
+    margin-top: 160px;
+}
+.Dell{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin-left: 230px;
+    margin-top: 160px;
+}
+.aoc{
+    position: absolute;
+    width: 174px;
+    height: 60px;
+    margin-left: 410px;
+    margin-top: 190px;
+}
+.Benq{
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    margin-left: 630px;
+    margin-top: 170px;
+}
+
+@media screen and (max-width: 1440px) {
+    .Monitor{
+        width: 80%;
+        height: 55vh;
+     
+    }
+    .brands-categories2{
+        margin-left: 200px;
+    }
+}

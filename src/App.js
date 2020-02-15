@@ -7,8 +7,10 @@ import products from './screens/products'
 import Contact from './screens/Contact'
 
 
-import Moniter from './Pages/Moniter'
-
+import Motherboard from './Pages/Motherboard'
+import Monitor from './Pages/Monitor'
+import Printers from './Pages/Printers'
+import computerperipherals from './Pages/computerperipherals'
 
 function App() {
   return (
@@ -20,7 +22,10 @@ function App() {
           <Route path="/Contact" component={Contact} />
           
 
-          <Route path="/Moniter" component={Moniter} />
+          <Route path="/Motherboard" component={Motherboard} />
+          <Route path="/Monitor" component={Monitor} />
+          <Route path="/Printers" component={Printers} />
+          <Route path="/computerperipherals" component={computerperipherals} />
         </Switch>
       </BrowserRouter>
     </div>

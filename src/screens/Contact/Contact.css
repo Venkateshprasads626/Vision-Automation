@@ -78,7 +78,7 @@ input{
 :placeholder-shown{
     font-style: italic;
 }
-
+/* 
 .fa-phone{
     position: relative;
     font-size: 25px;
@@ -86,7 +86,7 @@ input{
     top: 3px;
     color: #7D7D7D;
     
-}
+} */
 .sser{
     padding: 5px;
     border-radius: 20px;
