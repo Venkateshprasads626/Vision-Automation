@@ -49,13 +49,13 @@ const products = () => (
                             </Link>
                         </div>
                         <div className="card55">
-                            <Link to="/Moniter">
-                                <img src={type5} className="producttype5" alt="motherboard" />
+                            <Link to="/Projector">
+                                <img src={type5} className="producttype5" alt="projectors" />
                                 <h6 style={{textAlign: "center",marginTop: "70px"}}>PROJECTORS</h6>
                             </Link>
                         </div>
                         <div className="card66">
-                            <Link to="/Moniter">
+                            <Link to="/Networking">
                                 <img src={type6} className="producttype6" alt="motherboard" />
                                 <h6 style={{textAlign: "center"}}>NETWORKING</h6>
                             </Link>

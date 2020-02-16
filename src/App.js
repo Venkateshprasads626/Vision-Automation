@@ -11,6 +11,8 @@ import Motherboard from './Pages/Motherboard'
 import Monitor from './Pages/Monitor'
 import Printers from './Pages/Printers'
 import computerperipherals from './Pages/computerperipherals'
+import Projector from './Pages/Projector'
+import Networking from './Pages/Networking'
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/Monitor" component={Monitor} />
           <Route path="/Printers" component={Printers} />
           <Route path="/computerperipherals" component={computerperipherals} />
+          <Route path="/projector" component={Projector} />
+          <Route path="/Networking" component={Networking} />
         </Switch>
       </BrowserRouter>
     </div>

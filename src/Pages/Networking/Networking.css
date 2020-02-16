@@ -1,0 +1,55 @@
+.Networking{
+    width: 80%;
+    height: 50vh;
+    margin-bottom: 50px;
+    margin-left: 160px;
+    margin-top: 60px;    
+}
+.Network-header{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.brands-categories6{
+    position: absolute;
+    width: 762px;
+    height: 345px;
+    background: #FFFFFF;
+    border: 3px solid rgba(79, 79, 79, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-left: 340px;
+}
+.asus3{
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    width: 178px;
+    height: 93px;
+}
+.cisco{
+    position: absolute;
+    width: 150px;
+    height: 79px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.tp-link{
+    margin-left: 580px;
+    margin-top: 40px;
+    position: absolute;
+    width: 111px;
+    height: 111px;
+}
+.D-link{
+    margin-left: 300px;
+    margin-top: 150px;
+    position: absolute;
+    width: 154px;
+    height: 154px;
+}
