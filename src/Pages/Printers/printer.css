@@ -73,3 +73,98 @@
         margin-left: 200px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .Printer-header{
+        margin-left: -110px;
+    }
+    .brands-categories3{
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .brands-categories3{
+        margin-left: -160px;
+    }
+    .Printer-header{
+        margin-left: -180px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Printers{
+        height: 72vh;
+        width: 80%;
+        margin-left: 45px;
+    }
+    .Printer-header{
+        margin-left: 10px;
+        letter-spacing: 4px;
+    }
+    .brands-categories3{
+        width: 80%;
+        height: 450px;
+        margin-left: -5px;
+    }
+    .canon{
+        position: absolute;
+        width: 120px;
+        height: 90px;
+        margin-left: 20px;
+    }
+    .canonlogo,.brotherlogo,.tvslogo{
+        width: 120px;
+        height: 90px;
+    }
+    .epson{
+        position: absolute;
+        width: 120px;
+        height: 90px;
+        margin-left: 200px;
+    }
+    .epsonlogo{
+        width: 120px;
+        height: 90px;
+    }
+    .hp2{
+        position: absolute;
+        margin-left: -450px;
+        margin-top: 180px;
+        margin-left: -395px;
+        width: 120px;
+        height: 90px;
+    }
+    .Tvs{
+        position: absolute;
+        margin-top: 300px;
+        width: 120px;
+        height: 90px;
+        margin-left: -70px;
+    }
+    .brother{
+        margin-left: 25px;
+        margin-top: 180px;
+        width: 120px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .canon,.brother{
+        margin-left: 10px;
+    }
+    .epson{
+        margin-left: 170px;
+    }
+    .hp2{
+        margin-left: -420px;
+        margin-top:  190px;
+    }
+    .Tvs{
+        margin-left: -95px;
+    }
+    .brands-categories3{
+        margin-left: -10px;
+    }
+}

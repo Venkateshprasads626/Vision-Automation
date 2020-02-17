@@ -3,8 +3,7 @@
     height: 50vh;
     margin-bottom: 50px;
     margin-left: 160px;
-    margin-top: 60px;
-   
+    margin-top: 60px; 
 }
 .monitor-header{
     text-align: center;
@@ -90,5 +89,156 @@
     }
     .brands-categories2{
         margin-left: 200px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Monitor{
+        width: 80%;
+        height: 55vh;
+     
+    }
+    .monitor-header{
+        text-align: center;
+        letter-spacing: 5px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        color: #000000;
+        margin-left: -100px;
+    }
+    .brands-categories2{
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .brands-categories2{
+        margin-left: -160px;
+    }
+    .monitor-header{
+        margin-left: -150px;
+    }
+}
+
+/* this is for mobile phones */
+@media screen and (max-width: 425px) {
+    .Monitor{
+        width: 80%;
+        height: 68vh;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-top: 60px; 
+    }
+    .monitor-header{
+        letter-spacing: 4px;
+        margin-left: 20px;
+    }
+    .brands-categories2{
+        position: absolute;
+        width: 80%;
+        height: 400px;
+        background: #FFFFFF;
+        border: 3px solid rgba(79, 79, 79, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .asus1{
+        position: absolute;
+        margin-left: -70px;
+        margin-top: -100px;
+    }
+    .asuslogo{
+        width: 150px;
+        height: 80px;
+    }
+    .samsung{
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 8px;
+    }
+    .samsunglogo,.vsnoiclogo,.benqlogo{
+        width: 150px;
+        height: 80px;
+    }
+    .hp{
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 110px;
+    }
+    .hplogo,.lglogo,.Delllogo,.aoclogo{
+        width: 100px;
+        height: 60px;
+    }
+    .Lg{
+        position: absolute;
+        margin-lefT: 200px;
+        margin-top: 110px;
+    }
+
+    .Viewsonic{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -1px;
+    }
+    .Dell{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 200px;
+        width: 100px;
+        height: 60px;
+    }
+  .aoc{
+      position: absolute;
+      margin-left: 30px;
+      margin-top: 300px;
+  }
+  .Benq{
+      position: absolute;
+      margin-left: 0px;
+      margin-top: 300px;
+      margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .brands-categories2{
+        margin-left: -10px;
+    }
+    .asus1{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 130px;
+        height: 80px;
+    }
+    .asuslogo{
+        width: 130px;
+        height: 80px;
+        margin: 1px;
+    }
+    .samsung{
+        position: absolute;
+        margin-left: 160px;
+        margin-top: 8px;
+        width: 130px;
+        height: 80px;
+    }
+    .samsunglogo{
+        width: 130px;
+        height: 80px;
+    }
+    .Lg{
+        margin-left: 170px;
+    }
+    .Dell{
+        margin-left: 180px;
+    }
+    .Benq{
+        width: 150px;
+        height: 80px;
+        margin-left: 160px;
     }
 }

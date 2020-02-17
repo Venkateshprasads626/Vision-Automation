@@ -58,6 +58,10 @@
 }
 
 @media screen and (max-width: 1440px) {
+    .Motherboard{
+        width: 80%;
+        height: 55vh;
+    }
     .brands-categories{
         margin-left: 200px;
     }
@@ -150,5 +154,62 @@
     .gigabytelogo{
         margin-top: 600px;
         margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .motherboard-header{
+        text-align: center;
+        letter-spacing: 3px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        margin-left: 20px;
+    }
+    .header-caption{
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        margin-top: -5px;
+        margin-left: 10px;
+    }
+    .brands-categories{
+        position: absolute;
+        width: 80%;
+        height: 550px;
+        background: #FFFFFF;
+        border: 3px solid rgba(79, 79, 79, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+    .msilogo{
+        position: absolute;
+        margin-left: 50px;
+    }
+    
+    .asuslogo{
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 110px;
+    }
+    
+    .mercurylogo{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 80px;
+    }
+   
+    .gigabytelogo{
+        margin-top: 600px;
+        margin-left: 65px;
     }
 }

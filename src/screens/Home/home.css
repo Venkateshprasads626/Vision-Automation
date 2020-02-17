@@ -276,9 +276,11 @@ h6{
   letter-spacing: 5px;
   }
 .caption{
-  margin-top: -10px;
+  margin-top: 15px;
 }
-
+.caption323{
+  margin-top: -5px;
+}
 
 /* this is for pc */
  @media screen and (max-width: 1440px) {
@@ -399,6 +401,15 @@ h6{
     margin-top: 10px;
     letter-spacing: 5px;
     }
+    .caption{
+      margin-top: -20px;
+    }
+    .caption2{
+      margin-top: -10px;
+    }
+    .caption3{
+      margin-top: -35px;
+    }
 }
 
 /* this is for mobile phones */
@@ -502,6 +513,23 @@ h6{
 .card4:hover{
   transform: none;
 }
+h6{
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 2px;
+  letter-spacing: 3px;
+  }
+  .caption{
+    margin-top: 2px;
+  }
+  .caption2{
+    margin-top: 2px;
+  }
+  .caption323{
+    margin-top: -15px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -563,4 +591,20 @@ h6{
     width: 130px;
     margin-left: 80px;
   }
+  h6{
+    font-family: Montserrat;
+    font-size: 11px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 2px;
+    letter-spacing: 1px;
+    }
+    .caption{
+      margin-top: 2px;
+    }
+    .caption2{
+      margin-top: 2px;
+    }
+    
+    
 }

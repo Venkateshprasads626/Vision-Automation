@@ -165,9 +165,19 @@
     transform: scale(1.2);
   }
 
+  .caption3{
+    margin-top: 15px;
+  }
+  .caption4{
+    margin-top: -2px;
+  }
+  .caption5{
+    margin-top: 70px;
+  }
 
-
-
+  .caption7{
+    margin-top: 45px;
+  }
 
 
 
@@ -195,12 +205,13 @@
   /* this is for pc */
   @media screen and (max-width: 1440px) {
     .listof-products{
-      height: 220vh;
+      height: 230vh;
     }
     .cards2{
       margin-left: 350px;
       margin-top: 50px;
     }
+  
   }
 
   @media screen and (max-width: 1024px) {
@@ -211,6 +222,7 @@
   @media screen and (max-width: 768px) {
     .producttext1{
       margin-left: -190px;
+      
     }
     .producttext2{
       margin-left: 80px;
@@ -219,7 +231,7 @@
       margin-right: 50px;
     }
     .listof-products{
-      height: 165vh;
+      height: 175vh;
     }
     .cards2{
       margin-left: 10px;
@@ -228,8 +240,11 @@
       width: 200px;
       height: 200px;
     }
-    .card11,.card33,.card55,.card77,.card99{
+    .card11,.card33,.card55,.card77{
       margin-left: 150px;
+    }
+    .card99{
+      margin-left: 280px;
     }
     .card33{
       margin-top: 50px;
@@ -237,6 +252,63 @@
     .card44{
       margin-top: -200px;
     }
+    .producttype1,.producttype2,.producttype3,.producttype4{
+      width: 150px;
+      margin-left: 25px;
+      margin-top: -8px;
+    }
+    .producttype5{
+      width: 150px;
+      margin-left: 25px;
+      margin-top: 65px;
+    }
+    .producttype6{
+      width: 150px;
+      margin-left: 25px;
+      margin-top: 45px;
+    }
+    .producttype7{
+      width: 160px;
+      margin-left: 22px;
+      margin-top: 45px;
+    }
+    .producttype8{
+      width: 160px;
+      margin-left: 22px;
+      margin-top: 15px;
+    }
+    h6{
+      font-family: Montserrat;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+      margin-top: 2px;
+      letter-spacing: 3px;
+      }
+      .caption{
+        margin-top: -5px;
+      }
+      .caption2{
+        margin-top: -25px;
+      }
+      .caption3{
+        margin-top: -25px;
+      }
+      .caption4{
+        margin-top: -45px;
+      }
+      .caption5{
+        margin-top: 30px;
+      }
+      .caption6{
+        margin-top: 20px;
+      }
+      .caption7{
+        margin-top: 20px;
+      }
+      .caption9{
+        margin-top: -25px;
+      }
   }
 
   /* this is for mobile phones */
@@ -264,6 +336,54 @@
     .card22,.card44,.card66,.card88{
       margin-left: 350px;
     }
+    .card99{
+      margin-left: 250px;
+    }
+    .producttype1,.producttype2,.producttype3,.producttype4{
+      width: 130px;
+      margin-left: 25px;
+      margin-top: 2px;
+    }
+    .producttype5{
+      width: 130px;
+      margin-left: 25px;
+      margin-top: 55px;
+    }
+    .producttype6{
+      width: 130px;
+      margin-left: 25px;
+      margin-top: 30px;
+    }
+    .producttype7{
+      width: 130px;
+      margin-left: 22px;
+      margin-top: 30px;
+    }
+    .producttype8{
+      width: 130px;
+      margin-left: 22px;
+      margin-top: 10px;
+    }
+    h6{
+      font-family: Montserrat;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+      margin-top: 2px;
+      letter-spacing: 1.5px;
+      }
+    .caption,.caption2,.caption3{
+      margin-top: 3px;
+    }
+    .caption4{
+      margin-top: -20px;
+    }
+    .caption5,.caption6{
+      margin-top: 15px;
+    }
+    .caption7{
+      margin-top: 15px;
+    }
   }
 
   @media screen and (max-width: 375px) {
@@ -277,14 +397,67 @@
     .cards2{
       margin-left: -120px;
     }
-    .card11,.card33,.card55,.card77,.card99{
+    .card11,.card33,.card55,.card77{
     margin-left: 150px;
     }
-    .card22,.card44,.card66,.card88,.card10{
+    .card22,.card44,.card66,.card88{
       margin-left: 320px;
+    }
+    .card99{
+      margin-left: 230px;
     }
     .listof-products{
       height: 100vh;
     }
+    .producttype1,.producttype2,.producttype3,.producttype4{
+      width: 110px;
+      margin-left: 25px;
+      margin-top: 2px;
+    }
+    .producttype5{
+      width: 110px;
+      margin-left: 25px;
+      margin-top: 35px;
+    }
+    .producttype6{
+      width: 110px;
+      margin-left: 25px;
+      margin-top: 10px;
+    }
+    .producttype7{
+      width: 110px;
+      margin-left: 22px;
+      margin-top: 10px;
+    }
+    .producttype8{
+      width: 100px;
+      margin-left: 22px;
+      margin-top: 5px;
+    }
+    h6{
+      font-family: Montserrat;
+      font-size: 11px;
+      line-height: 22px;
+      color: #000000;
+      margin-top: 2px;
+      letter-spacing: 1.5px;
+      }
+    .caption,.caption2,.caption3{
+      margin-top: 3px;
+    }
+    .caption4{
+      margin-top: -20px;
+    }
+    .caption5,.caption6{
+      margin-top: 15px;
+    }
+    .caption7{
+      margin-top: 18px;
+    }
+    .caption8{
+      position: absolute;
+      margin-top: -2px;
+    }
+
   }
  

@@ -13,6 +13,7 @@ import Printers from './Pages/Printers'
 import computerperipherals from './Pages/computerperipherals'
 import Projector from './Pages/Projector'
 import Networking from './Pages/Networking'
+import Cables from './Pages/Cables'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/computerperipherals" component={computerperipherals} />
           <Route path="/projector" component={Projector} />
           <Route path="/Networking" component={Networking} />
+          <Route path="/Cables" component={Cables} />
         </Switch>
       </BrowserRouter>
     </div>

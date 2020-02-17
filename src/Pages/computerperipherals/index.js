@@ -38,43 +38,43 @@ const computerperipherals = () => (
                         <a href="" target="_blank"><img src={logo6} className="hp" alt="" /></a> 
                     </div>
                     <div className="lenova">
-                        <a href="" target="_blank"><img src={logo16} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo16} className="lenovalogo" alt="" /></a> 
                     </div>
                     <div className="logitech">
-                        <a href="" target="_blank"><img src={logo17} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo17} className="logitechlogo" alt="" /></a> 
                     </div>
                     <div className="iball">
-                        <a href="" target="_blank"><img src={logo18} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo18} className="iballlogo" alt="" /></a> 
                     </div>
                     <div className="westerndigital">
-                        <a href="" target="_blank"><img src={logo19} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo19} className="weterdigitallogo" alt="" /></a> 
                     </div>
                     <div className="crucial">
-                        <a href="" target="_blank"><img src={logo20} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo20} className="cruciallogo" alt="" /></a> 
                     </div>
                     <div className="creative">
-                        <a href="" target="_blank"><img src={logo21} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo21} className="creativelogo" alt="" /></a> 
                     </div>
                     <div className="sandisk">
-                        <a href="" target="_blank"><img src={logo22} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo22} className="sandisklogo" alt="" /></a> 
                     </div>
                     <div className="transcend">
-                        <a href="" target="_blank"><img src={logo23} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo23} className="transcendlogo" alt="" /></a> 
                     </div>
                     <div className="toshiba">
-                        <a href="" target="_blank"><img src={logo24} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo24} className="toshibalogo" alt="" /></a> 
                     </div>
                     <div className="sony">
-                        <a href="" target="_blank"><img src={logo25} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo25} className="sonylogo12" alt="" /></a> 
                     </div>
                     <div className="adata">
-                        <a href="" target="_blank"><img src={logo26} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo26} className="adatalogo" alt="" /></a> 
                     </div>
                     <div className="seagate">
-                        <a href="" target="_blank"><img src={logo27} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo27} className="segatelogo" alt="" /></a> 
                     </div>
                     <div className="kingston">
-                        <a href="" target="_blank"><img src={logo28} className="dell" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo28} className="kingstonlogo" alt="" /></a> 
                     </div>
                 </div>
             </div>
