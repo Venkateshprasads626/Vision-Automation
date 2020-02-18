@@ -24,8 +24,7 @@
 
 .listof-products{
     width: 100%;
-    height: 200vh;
-  
+    height: 220vh;
 }
 .cards2{
     position: absolute;
@@ -118,7 +117,36 @@
     border-radius: 4px;
     margin-top: 50px;
     float: left;
-    margin-left: 201px;
+    cursor: pointer;
+  }
+  .card101{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 400px;
+    cursor: pointer;
+  }
+  .card102{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 50px;
+    float: left;
+    cursor: pointer;
+  }
+  .card103{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 400px;
     cursor: pointer;
   }
 
@@ -136,6 +164,18 @@
   .producttype8{
     margin-top: 30px;
     margin-left: 48px;
+  }
+  .producttype10{
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  .producttype11{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .producttype12{
+    margin-top: 40px;
+    margin-left: 50px;
   }
   .card11:hover{
     transform: scale(1.2);
@@ -164,6 +204,15 @@
   .card99:hover{
     transform: scale(1.2);
   }
+  .card101:hover{
+    transform: scale(1.2);
+  }
+  .card102:hover{
+    transform: scale(1.2);
+  }
+  .card103:hover{
+    transform: scale(1.2);
+  }
 
   .caption3{
     margin-top: 15px;
@@ -178,6 +227,18 @@
   .caption7{
     margin-top: 45px;
   }
+  .caption10{
+    margin-top: 30px;
+  }
+  .caption11{
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+  .caption12{
+    margin-top: 35px;
+  }
+
 
 
 
@@ -205,7 +266,7 @@
   /* this is for pc */
   @media screen and (max-width: 1440px) {
     .listof-products{
-      height: 230vh;
+      height: 260vh;
     }
     .cards2{
       margin-left: 350px;
@@ -231,21 +292,19 @@
       margin-right: 50px;
     }
     .listof-products{
-      height: 175vh;
+      height: 200vh;
     }
     .cards2{
       margin-left: 10px;
     }
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
       width: 200px;
       height: 200px;
     }
-    .card11,.card33,.card55,.card77{
+    .card11,.card33,.card55,.card77,.card99,.card102{
       margin-left: 150px;
     }
-    .card99{
-      margin-left: 280px;
-    }
+   
     .card33{
       margin-top: 50px;
     }
@@ -273,6 +332,21 @@
       margin-top: 45px;
     }
     .producttype8{
+      width: 160px;
+      margin-left: 22px;
+      margin-top: 15px;
+    }
+    .producttype10{
+      width: 160px;
+      margin-left: 22px;
+      margin-top: 35px;
+    }
+    .producttype11{
+      width: 160px;
+      margin-left: 22px;
+      margin-top: 15px;
+    }
+    .producttype12{
       width: 160px;
       margin-left: 22px;
       margin-top: 15px;
@@ -309,11 +383,21 @@
       .caption9{
         margin-top: -25px;
       }
+      .caption10{
+        margin-top: 40px;
+      }
+      .caption11{
+        font-size: 15px;
+        margin-top: 10px;
+      }
+      .caption12{
+        margin-top: 43px;
+      }
   }
 
   /* this is for mobile phones */
   @media screen and (max-width: 425px) {
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
+    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
       width: 180px;
       height: 160px;
     }
@@ -322,7 +406,7 @@
       margin-top: 10px;
     }
     .listof-products{
-      height: 120vh;
+      height: 140vh;
     }
     .card33{
       margin-top: 15px;
@@ -330,15 +414,13 @@
     .card44{
       margin-top: -160px;
     }
-    .card55,.card66,.card77,.card88,.card99{
+    .card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
       margin-top: 15px;
     }
-    .card22,.card44,.card66,.card88{
+    .card22,.card44,.card66,.card88,.card101,.card103{
       margin-left: 350px;
     }
-    .card99{
-      margin-left: 250px;
-    }
+   
     .producttype1,.producttype2,.producttype3,.producttype4{
       width: 130px;
       margin-left: 25px;
@@ -364,6 +446,21 @@
       margin-left: 22px;
       margin-top: 10px;
     }
+    .producttype10{
+      width: 130px;
+      margin-left: 26px;
+      margin-top: 30px;
+    }
+    .producttype11{
+      width: 130px;
+      margin-left: 22px;
+      margin-top: 10px;
+    }
+    .producttype12{
+      width: 130px;
+      margin-left: 22px;
+      margin-top: 10px;
+    }
     h6{
       font-family: Montserrat;
       font-size: 15px;
@@ -383,6 +480,18 @@
     }
     .caption7{
       margin-top: 15px;
+    }
+    .caption9{
+      margin-top: -13px;
+    }
+    .caption10{
+      margin-top: 22px;
+    }
+    .caption11{
+      margin-top: 2px;
+    }
+    .caption12{
+      margin-top: 30px;
     }
   }
 

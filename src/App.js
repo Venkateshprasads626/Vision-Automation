@@ -5,7 +5,7 @@ import './App.css';
 import Home from './screens/Home'
 import products from './screens/products'
 import Contact from './screens/Contact'
-
+import Aboutus from './screens/Aboutus'
 
 import Motherboard from './Pages/Motherboard'
 import Monitor from './Pages/Monitor'
@@ -16,6 +16,7 @@ import Networking from './Pages/Networking'
 import Cables from './Pages/Cables'
 import Lifestyle from './Pages/Lifestyle';
 import Servers from './Pages/Servers'
+import Graphicscard from './Pages/Graphicscard';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/products" component={products} />
           <Route path="/Contact" component={Contact} />
-          
+          <Route path="/Aboutus" component={Aboutus} />
 
           <Route path="/Motherboard" component={Motherboard} />
           <Route path="/Monitor" component={Monitor} />
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Cables" component={Cables} />
           <Route path="/Lifestyle" component={Lifestyle} />
           <Route path="/Servers" component={Servers} />
+          <Route path="/Graphicscard" component={Graphicscard} />
         </Switch>
       </BrowserRouter>
     </div>

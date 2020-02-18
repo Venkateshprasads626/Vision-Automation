@@ -11,6 +11,9 @@ import type6 from '../../Images/type6.svg';
 import type7 from '../../Images/type7.svg';
 import type8 from '../../Images/type8.svg';
 import type9 from '../../Images/type9.svg';
+import type10 from '../../Images/type10.svg';
+import type11 from '../../Images/type11.svg';
+import type12 from '../../Images/type12.svg';
 import { Link } from 'react-router-dom'
 
 
@@ -76,6 +79,24 @@ const products = () => (
                             <Link to="/Servers">
                                 <img src={type9} className="producttype1" alt="motherboard" />
                                 <h6 className="caption9" style={{textAlign: "center"}}>SERVER & WORKSTATION</h6>
+                            </Link>
+                        </div>
+                        <div className="card101">
+                            <Link to="/Graphicscard">
+                                <img src={type10} className="producttype10" alt="motherboard" />
+                                <h6 className="caption10" style={{textAlign: "center"}}>GRAPHIC CARDS</h6>
+                            </Link>
+                        </div>
+                        <div className="card102">
+                            <Link to="/POS">
+                                <img src={type11} className="producttype11" alt="motherboard" />
+                                <h6 className="caption11" style={{textAlign: "center"}}>POS(Ponit of sale -Retail)</h6>
+                            </Link>
+                        </div>
+                        <div className="card103">
+                            <Link to="/Softwares">
+                                <img src={type12} className="producttype12" alt="motherboard" />
+                                <h6 className="caption12" style={{textAlign: "center"}}>SOFTWARES</h6>
                             </Link>
                         </div>
                        

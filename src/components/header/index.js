@@ -23,7 +23,7 @@ const Header = props => (
                 <span className="dot dot2"> <i className="fa fa-desktop" aria-hidden="true"></i></span>
             </li>
             <li>
-                <NavLink to="">About Us</NavLink>
+                <NavLink to="/Aboutus">About Us</NavLink>
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
             </li>
             <li>
