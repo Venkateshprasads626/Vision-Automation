@@ -16,7 +16,7 @@ const Networking = () => (
                 <p className="header-caption">In this Category we deal with Brands such as</p>
                 <div className="brands-categories6">
                 <div className="asus3">
-                    <a href="#" target="_blank"><img src={logo2} className="asuslogo" alt="ASUS" /></a> 
+                    <a href="#" target="_blank"><img src={logo2} className="asus3logo" alt="ASUS" /></a> 
                 </div>
                 <div className="cisco">
                     <a href="#" target="_blank"><img src={logo29} className="ciscologo" alt="CISCO" /></a> 
