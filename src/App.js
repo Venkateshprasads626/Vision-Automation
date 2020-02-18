@@ -14,6 +14,8 @@ import computerperipherals from './Pages/computerperipherals'
 import Projector from './Pages/Projector'
 import Networking from './Pages/Networking'
 import Cables from './Pages/Cables'
+import Lifestyle from './Pages/Lifestyle';
+import Servers from './Pages/Servers'
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/projector" component={Projector} />
           <Route path="/Networking" component={Networking} />
           <Route path="/Cables" component={Cables} />
+          <Route path="/Lifestyle" component={Lifestyle} />
+          <Route path="/Servers" component={Servers} />
         </Switch>
       </BrowserRouter>
     </div>

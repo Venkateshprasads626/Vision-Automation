@@ -67,13 +67,13 @@ const products = () => (
                             </Link>
                         </div>
                         <div className="card88">
-                            <Link to="/Moniter">
+                            <Link to="/Lifestyle">
                                 <img src={type8} className="producttype8" alt="motherboard" />
                                 <h6 className="caption8" style={{textAlign: "center"}}>LIFESTYLE PRODUCTS</h6>
                             </Link>
                         </div>
                         <div className="card99">
-                            <Link to="/Moniter">
+                            <Link to="/Servers">
                                 <img src={type9} className="producttype1" alt="motherboard" />
                                 <h6 className="caption9" style={{textAlign: "center"}}>SERVER & WORKSTATION</h6>
                             </Link>

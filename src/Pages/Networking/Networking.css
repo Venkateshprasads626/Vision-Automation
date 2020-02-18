@@ -89,7 +89,8 @@
 
 @media screen and (max-width: 425px) {
     .brands-categories6{
-        width: 100%;
+        width: 90%;
+        margin-left: 18px;
     }
     .Networking{
         width: 100%;
@@ -119,9 +120,23 @@
     .D-link{
         margin-top: 200px;
         margin-left: 250px;
+        width: 100px;
+        height: 100px;
     }
     .Dlinklogo{
         width: 100px;
         height: 100px;
     }
+}
+@media screen and (max-width: 375px) {
+    .cisco{
+        margin-left: 200px;
+    }
+    .D-link{
+        margin-left: 210px;
+    }
+    .brands-categories6{
+        margin-left: 14px;
+    }
+
 }

@@ -136,13 +136,16 @@
     }
     .asus{
         margin-top: 10px;
+        margin-left: 30px;
     }
     .asuslogo{
         position: absolute;
         margin-left: 70px;
         margin-top: 110px;
     }
-    
+    .mercury{
+        margin-left: 15px;
+    }
     .mercurylogo{
         position: absolute;
         margin-top: 250px;
@@ -195,7 +198,10 @@
         position: absolute;
         margin-left: 50px;
     }
-    
+    .asus{
+        margin-top: 100px;
+        margin-left: 80px;
+    }
     .asuslogo{
         position: absolute;
         margin-left: 60px;
@@ -204,12 +210,12 @@
     
     .mercurylogo{
         position: absolute;
-        margin-top: 250px;
-        margin-left: 80px;
+        margin-top: 90px;
+        margin-left: 65px;
     }
    
     .gigabytelogo{
-        margin-top: 600px;
+        margin-top: 450px;
         margin-left: 65px;
     }
 }

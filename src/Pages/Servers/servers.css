@@ -1,0 +1,133 @@
+.Servers{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-top: 60px;    
+}
+.Server-header{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.brands-categories9{
+    position: absolute;
+    width: 762px;
+    height: 345px;
+    background: #FFFFFF;
+    border: 3px solid rgba(79, 79, 79, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-left: 530px;
+}
+.dell4{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.Hp4{
+    margin-left: 300px;
+    margin-top: 125px;
+    position: absolute;
+}
+.Lenova4{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+/* this is for computers */
+@media screen and (max-width: 1440px) {
+    .Servers{
+        height: 60vh;
+    }
+    .brands-categories9{
+        margin-left: 330px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .brands-categories9{
+        margin-left: 125px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .brands-categories9{
+        margin-left: 0px;
+    }
+}
+
+/* this is for mobile phones */
+@media screen and (max-width: 425px) {
+    .Servers{
+        height: 50vh;
+    }
+    .brands-categories9{
+        width: 90%;
+        height: 200px;
+        margin-left: 18px;
+    }
+    .Server-header{
+        font-size: 22px;
+    }
+    .dell4{
+        width: 100px;
+        height: 80px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .dell4logo{
+        width: 100px;
+        height: 80px;
+    }
+    .Hp4{
+        margin-top: 65px;
+        margin-left: 140px;
+    }
+    .Lenova4{
+        width: 100px;
+        height: 80px;
+        margin-top: 60px;
+        margin-left: 250px;
+    }
+    .lenova4logo{
+        width: 120px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dell4{
+        width: 80px;
+        height: 70px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .dell4logo{
+        width: 80px;
+        height: 70px;
+    }
+    .Hp4{
+        margin-top: 65px;
+        margin-left: 120px;
+    }
+    .hp4logo{
+        width: 70px;
+        height: 60px;
+    }
+    .Lenova4{
+        width: 100px;
+        height: 90px;
+        margin-top: 60px;
+        margin-left: 220px;
+    }
+    .lenova4logo{
+        width: 100px;
+        height: 90px;
+    }
+}

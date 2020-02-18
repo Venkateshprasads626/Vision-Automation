@@ -20,7 +20,7 @@ const Printers = () => (
                 <p className="header-caption">In this Category we deal with Brands such as</p>
                 <div className="brands-categories3">
                     <div className="canon">
-                        <a href="" target="_blank"><img src={logo12} className="canonlogo" alt="Canon" /></a> 
+                        <a href="https://in.canon/en/consumer/products/search?category=printing" target="_blank"><img src={logo12} className="canonlogo" alt="Canon" /></a> 
                     </div>
                     <div className="epson">
                         <a href="https://www.epson.co.in/For-Home/Printers/EcoTank-Printers/c/h120in" target="_blank"><img src={logo13} className="epsonlogo" alt="EPSON" /></a> 

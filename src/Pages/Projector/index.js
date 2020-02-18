@@ -16,7 +16,7 @@ const Projector = () => (
                 <p className="header-caption">In this Category we deal with Brands such as</p>
                 <div className="brands-categories5">
                 <div className="Sony2">
-                        <a href="https://pro.sony/en_BE/products/projectors" target="_blank"><img src={logo25} className="sony2logo" alt="SONY" /></a> 
+                        <a href="https://pro.sony/en_IN/products/home-cinema-projectors" target="_blank"><img src={logo25} className="sony2logo" alt="SONY" /></a> 
                    </div>
                    <div className="epson2">
                         <a href="https://www.epson.co.in/homeprojector" target="_blank"><img src={logo13} className="epson2logo" alt="EPSON" /></a> 
