@@ -120,10 +120,12 @@ nav{
 
 
 /* this is media query for pc */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1200px) {
   html,body{
     overflow-x: hidden;
+    white-space: nowrap;
   }
+
 }
 
 @media screen and (max-width: 768px) {
