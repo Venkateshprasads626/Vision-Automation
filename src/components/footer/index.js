@@ -39,7 +39,7 @@ const Footer = props => (
                   </div>
             
             </div>
-            </footer>
+      </footer>
     </div>
 );
 

@@ -23,7 +23,7 @@ const products = () => (
             <div className="Productpage">
                 <h1 className="producttext1">All</h1>
                 <h1 className="producttext2" style={{color:"red"}}>Categories</h1>
-                <p className="producttext3">Pharetra risus velit rutrum id at ultrices mus arcu.</p>
+                {/* <p className="producttext3">Pharetra risus velit rutrum id at ultrices mus arcu.</p> */}
                 <div className="listof-products">
                     <div className="cards2">
                         <div className="card11">

@@ -26,15 +26,6 @@ const Contact = () => (
 
                                 <p>Organization</p>
                                 <input type="text" placeholder="Enter your Organization Details" name="text" className="org"/>
-                                <p>Select Service</p>
-                                <select className="sser">
-                                    <option value="select" className="ty">Select the type of service you need</option>
-                                    <option value="UI/UX Design">UI/UX Design</option>
-                                    <option value="Web Design">Web Design</option>
-                                    <option value="Brand Creation">Brand Creation</option>
-                                    <option value="Package Design">Package Design</option>
-                                    <option value="Event Design">Event Design</option>
-                                </select>
                                 <button type="submit" value="submit" className="submitbtn">Submit</button>
                             </form>
                         </div>

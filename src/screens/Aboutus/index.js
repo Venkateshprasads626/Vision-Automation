@@ -20,7 +20,7 @@ const Aboutus = () => (
                         <p className="ab7">IT hardware and peripharals needs, we have one of the best team to handle the<br /></p>
                         <p className="ab8"> after sale service requirement.</p> 
                 </div>
-                <div className="">
+                <div className="testimony">
                     <Testimony />
                 </div>
             </div>
