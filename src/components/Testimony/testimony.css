@@ -106,130 +106,37 @@
     opacity: 1;
   }
   
-
-.testimony-data{
-    position: absolute;
-    font-size: 25px;
-    font-family: Poppins;
-    margin-left: 0px;
-    margin-top: 50px;
-}
-.testimony-data2{
-  position: absolute;
-  font-size: 20px;
-  font-family: Poppins;
-  margin-left: 0px;
-  margin-top: 120px;
-}
-.testimony-data3{
-  position: absolute;
-  font-size: 20px;
-  font-family: Poppins;
-  margin-left: 0px;
-  margin-top:80px;
-}
-.testi1{
-  margin-left: 100px;
-}
-.testi2{
-  margin-top: -15px;
-  margin-left: 140px;
-}
-.testi3{
-  margin-top: -45px;
-  margin-left: 160px;
-}
-.testi44{
-  margin-top: -15px;
-  margin-left: 300px;
-}
-.testi4{
-  margin-top: 15px;
-  margin-left: 300px;
-}
-.testi5{
-  margin-top: -60px;
-  margin-left: 200px;
-}
-.testi6{
-  margin-top: -15px;
-  margin-left: 100px;
-}
-.testi7{
-  margin-top: -50px;
-  margin-left: 45px;
-}
-.testi8{
-  margin-top: -20px;
-  margin-left: 50px;
-}
-.testi9{
-  margin-top: -20px;
-  margin-left: 230px;
-}
-.testi99{
-  margin-top: -20px;
-  margin-left: 150px;
-}
-.testi10{
-  margin-top: 15px;
-  margin-left: 250px;
-}
-.testi11{
-  margin-top: 44px;
-  margin-left: 130px;
-}
-.testi12{
-  margin-top: -20px;
-  margin-left: 180px;
-}
-.testi13{
-  margin-top: -50px;
-  margin-left: 150px;
-}
-.testi114{
-  margin-left: 120px;
-}
-
-
-@media screen and (min-width: 768px) {
-  .slide_viewer {
-    height: 250px;
-    overflow: hidden;
-    position: relative;
-    border-radius: 10px;
+  @media only screen and (max-width: 767px) {
+    .previous_btn {
+      left: 50px;
+    }
+    .next_btn {
+      right: 50px;
+    }
   }
-.testimony-data{
+  .testimony-data{
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Poppins;
     margin-left: 0px;
     margin-top: 50px;
 }
-.testidata{
-  background: red;
-  width: 800px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-}
 .testimony-data2{
   position: absolute;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Poppins;
   margin-left: 0px;
   margin-top: 120px;
 }
 .testimony-data3{
   position: absolute;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Poppins;
   margin-left: 0px;
   margin-top:80px;
 }
 .testi1{
-  text-align: center;
+  margin-left: 100px;
 }
 .testi2{
   margin-top: -15px;
@@ -290,4 +197,8 @@
 .testi114{
   margin-left: 120px;
 }
+
+
+@media screen and (max-width: 768px) {
+
 }

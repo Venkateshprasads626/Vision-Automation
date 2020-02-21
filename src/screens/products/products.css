@@ -1,582 +1,573 @@
 .producttext1{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    margin-left: -150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin-left: -150px;
 }
 .producttext2{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: -70px;
-    font-size: 36px;
-    margin-left: 110px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -70px;
+  font-size: 36px;
+  margin-left: 110px;
 }
 .producttext3{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: -15px;
-    margin-left: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: -15px;
+  margin-left: 50px;
 }
 
 
 .cards2{
-    position: absolute;
-    margin-left: 550px;
-    margin-top: 100px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 100px;
 }
 .card11{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    float: left;
-    cursor: pointer;
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
 }
-  
-  .card22{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-left: 400px;
-    cursor: pointer;
+
+.card22{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.card33{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.card44{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: -284px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.card55{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  float: left;
+  cursor: pointer;
+}
+.card66{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.card77{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  float: left;
+  cursor: pointer;
+}
+.card88{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.card99{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  float: left;
+  cursor: pointer;
+}
+.card101{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+.card102{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  float: left;
+  cursor: pointer;
+}
+.card103{
+  width: 340px;
+  height: 283px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+
+.producttype5{
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.producttype6{
+  margin-top: 30px;
+}
+.producttype7{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.producttype8{
+  margin-top: 30px;
+  margin-left: 48px;
+}
+.producttype10{
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.producttype11{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.producttype12{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.card11:hover{
+  transform: scale(1.2);
+}
+.card22:hover{
+  transform: scale(1.2);
+}
+.card33:hover{
+  transform: scale(1.2);
+}
+.card44:hover{
+  transform: scale(1.2);
+}
+.card55:hover{
+  transform: scale(1.2);
+}
+.card66:hover{
+  transform: scale(1.2);
+}
+.card77:hover{
+  transform: scale(1.2);
+}
+.card88:hover{
+  transform: scale(1.2);
+}
+.card99:hover{
+  transform: scale(1.2);
+}
+.card101:hover{
+  transform: scale(1.2);
+}
+.card102:hover{
+  transform: scale(1.2);
+}
+.card103:hover{
+  transform: scale(1.2);
+}
+
+.caption3{
+  margin-top: 15px;
+}
+.caption4{
+  margin-top: -2px;
+}
+.caption5{
+  margin-top: 70px;
+}
+
+.caption7{
+  margin-top: 45px;
+}
+.caption10{
+  margin-top: 30px;
+}
+.caption11{
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+.caption12{
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is for pc */
+@media screen and (min-width: 1200px) {
+  .listof-products{
+    height: 2000px;
+    margin-bottom: 0px;
   }
-  .card33{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    cursor: pointer;
-  }
-  .card44{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: -284px;
-    margin-left: 400px;
-    cursor: pointer;
-  }
-  .card55{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    float: left;
-    cursor: pointer;
-  }
-  .card66{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-left: 400px;
-    cursor: pointer;
-  }
-  .card77{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    float: left;
-    cursor: pointer;
-  }
-  .card88{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-left: 400px;
-    cursor: pointer;
-  }
-  .card99{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    float: left;
-    cursor: pointer;
-  }
-  .card101{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-left: 400px;
-    cursor: pointer;
-  }
-  .card102{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    float: left;
-    cursor: pointer;
-  }
-  .card103{
-    width: 340px;
-    height: 283px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-left: 400px;
-    cursor: pointer;
+  .cards2{
+    position: absolute;
+    width: 740px;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    margin-top: 20px;
   }
 
-  .producttype5{
-    margin-left: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards2{
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .producttext1{
+    margin-left: -190px;
+    
+  }
+  .producttext2{
+    margin-left: 80px;
+  }
+  .producttext3{
+    margin-right: 50px;
+  }
+  .listof-products{
+    height: 200vh;
+  }
+  .cards2{
+    margin-left: 10px;
+  }
+  .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
+    width: 200px;
+    height: 200px;
+  }
+  .card11,.card33,.card55,.card77,.card99,.card102{
+    margin-left: 150px;
+  }
+ 
+  .card33{
     margin-top: 50px;
   }
+  .card44{
+    margin-top: -200px;
+  }
+  .producttype1,.producttype2,.producttype3,.producttype4{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: -8px;
+  }
+  .producttype5{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 65px;
+  }
   .producttype6{
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 45px;
+  }
+  .producttype7{
+    width: 160px;
+    margin-left: 22px;
+    margin-top: 45px;
+  }
+  .producttype8{
+    width: 160px;
+    margin-left: 22px;
+    margin-top: 15px;
+  }
+  .producttype10{
+    width: 160px;
+    margin-left: 22px;
+    margin-top: 35px;
+  }
+  .producttype11{
+    width: 160px;
+    margin-left: 22px;
+    margin-top: 15px;
+  }
+  .producttype12{
+    width: 160px;
+    margin-left: 22px;
+    margin-top: 15px;
+  }
+  h6{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 2px;
+    letter-spacing: 3px;
+    }
+    .caption1{
+      margin-top: -5px;
+    }
+    .caption2{
+      margin-top: -25px;
+    }
+    .caption3{
+      margin-top: -25px;
+    }
+    .caption4{
+      margin-top: -45px;
+    }
+    .caption5{
+      margin-top: 30px;
+    }
+    .caption6{
+      margin-top: 20px;
+    }
+    .caption7{
+      margin-top: 20px;
+    }
+    .caption9{
+      margin-top: -25px;
+    }
+    .caption10{
+      margin-top: 40px;
+    }
+    .caption11{
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    .caption12{
+      margin-top: 43px;
+    }
+}
+
+/* this is for mobile phones */
+@media screen and (max-width: 425px) {
+  .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
+    width: 180px;
+    height: 160px;
+  }
+  .cards2{
+    margin-left: -126px;
+    margin-top: 10px;
+  }
+  .listof-products{
+    height: 140vh;
+  }
+  .card33{
+    margin-top: 15px;
+  }
+  .card44{
+    margin-top: -160px;
+  }
+  .card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
+    margin-top: 15px;
+  }
+  .card22,.card44,.card66,.card88,.card101,.card103{
+    margin-left: 350px;
+  }
+ 
+  .producttype1,.producttype2,.producttype3,.producttype4{
+    width: 130px;
+    margin-left: 25px;
+    margin-top: 2px;
+  }
+  .producttype5{
+    width: 130px;
+    margin-left: 25px;
+    margin-top: 55px;
+  }
+  .producttype6{
+    width: 130px;
+    margin-left: 25px;
     margin-top: 30px;
   }
   .producttype7{
+    width: 130px;
+    margin-left: 22px;
     margin-top: 30px;
-    margin-left: 15px;
   }
   .producttype8{
-    margin-top: 30px;
-    margin-left: 48px;
+    width: 130px;
+    margin-left: 22px;
+    margin-top: 10px;
   }
   .producttype10{
+    width: 130px;
+    margin-left: 26px;
     margin-top: 30px;
-    margin-left: 25px;
   }
   .producttype11{
-    margin-top: 20px;
-    margin-left: 50px;
+    width: 130px;
+    margin-left: 22px;
+    margin-top: 10px;
   }
   .producttype12{
-    margin-top: 40px;
-    margin-left: 50px;
+    width: 130px;
+    margin-left: 22px;
+    margin-top: 10px;
   }
-  .card11:hover{
-    transform: scale(1.2);
-  }
-  .card22:hover{
-    transform: scale(1.2);
-  }
-  .card33:hover{
-    transform: scale(1.2);
-  }
-  .card44:hover{
-    transform: scale(1.2);
-  }
-  .card55:hover{
-    transform: scale(1.2);
-  }
-  .card66:hover{
-    transform: scale(1.2);
-  }
-  .card77:hover{
-    transform: scale(1.2);
-  }
-  .card88:hover{
-    transform: scale(1.2);
-  }
-  .card99:hover{
-    transform: scale(1.2);
-  }
-  .card101:hover{
-    transform: scale(1.2);
-  }
-  .card102:hover{
-    transform: scale(1.2);
-  }
-  .card103:hover{
-    transform: scale(1.2);
-  }
-
-  .caption3{
-    margin-top: 15px;
+  h6{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 2px;
+    letter-spacing: 1.5px;
+    }
+  .caption,.caption2,.caption3{
+    margin-top: 3px;
   }
   .caption4{
-    margin-top: -2px;
+    margin-top: -20px;
   }
-  .caption5{
-    margin-top: 70px;
+  .caption5,.caption6{
+    margin-top: 15px;
   }
-
   .caption7{
-    margin-top: 45px;
+    margin-top: 15px;
+  }
+  .caption9{
+    margin-top: -13px;
   }
   .caption10{
-    margin-top: 30px;
+    margin-top: 22px;
   }
   .caption11{
-    font-size: 18px;
-    letter-spacing: 3px;
-    margin-top: 30px;
+    margin-top: 2px;
   }
   .caption12{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
+    width: 150px;
+    height: 130px;
+  }
+  .card44{
+    margin-top: -130px;
+  }
+  .cards2{
+    margin-left: -120px;
+  }
+  .card11,.card33,.card55,.card77{
+  margin-left: 150px;
+  }
+  .card22,.card44,.card66,.card88{
+    margin-left: 320px;
+  }
+  .card99{
+    margin-left: 230px;
+  }
+  .listof-products{
+    height: 100vh;
+  }
+  .producttype1,.producttype2,.producttype3,.producttype4{
+    width: 110px;
+    margin-left: 25px;
+    margin-top: 2px;
+  }
+  .producttype5{
+    width: 110px;
+    margin-left: 25px;
     margin-top: 35px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* this is for pc */
-  @media screen and (min-width: 1200px) {
-    .listof-products{
-      height: 2000px;
-      margin-bottom: 0px;
+  .producttype6{
+    width: 110px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .producttype7{
+    width: 110px;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+  .producttype8{
+    width: 100px;
+    margin-left: 22px;
+    margin-top: 5px;
+  }
+  h6{
+    font-family: Montserrat;
+    font-size: 11px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 2px;
+    letter-spacing: 1.5px;
     }
-    .cards2{
-      position: absolute;
-      width: 740px;
-      left: 0;
-      right: 0; 
-      margin: auto;
-      margin-top: 20px;
-    }
-  
+  .caption,.caption2,.caption3{
+    margin-top: 3px;
+  }
+  .caption4{
+    margin-top: -20px;
+  }
+  .caption5,.caption6{
+    margin-top: 15px;
+  }
+  .caption7{
+    margin-top: 18px;
+  }
+  .caption8{
+    position: absolute;
+    margin-top: -2px;
   }
 
-  @media screen and (min-width: 992px) {
-    .cards2{
-      right: 0;
-      left: 0;
-      position: absolute;
-      margin: auto;
-    }
-  }
-  @media screen and (min-width: 768px) {
-    .producttext1{
-      margin-left: -190px;
-    }
-    .producttext2{
-      margin-left: 80px;
-    }
-    .producttext3{
-      margin-right: 50px;
-    }
-    .listof-products{
-      height: 185vh;
-      background: red;
-    }
-    .cards2{
-      background: blue;
-      width: 450px;
-      left: 0;
-      right: 0;
-      position: absolute;
-      margin: auto;
-    }
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
-      width: 200px;
-      height: 200px;
-    }
-   .card22,.card44,.card66,.card88,.card101,.card103{
-     margin-left: 250px;
-   }
-   
-    .card33{
-      margin-top: 50px;
-    }
-    .card44{
-      margin-top: -200px;
-    }
-    .producttype1,.producttype2,.producttype3,.producttype4{
-      width: 150px;
-      margin-left: 25px;
-      margin-top: -8px;
-    }
-    .producttype5{
-      width: 150px;
-      margin-left: 25px;
-      margin-top: 65px;
-    }
-    .producttype6{
-      width: 150px;
-      margin-left: 25px;
-      margin-top: 45px;
-    }
-    .producttype7{
-      width: 160px;
-      margin-left: 22px;
-      margin-top: 45px;
-    }
-    .producttype8{
-      width: 160px;
-      margin-left: 22px;
-      margin-top: 15px;
-    }
-    .producttype10{
-      width: 160px;
-      margin-left: 22px;
-      margin-top: 35px;
-    }
-    .producttype11{
-      width: 160px;
-      margin-left: 22px;
-      margin-top: 15px;
-    }
-    .producttype12{
-      width: 160px;
-      margin-left: 22px;
-      margin-top: 15px;
-    }
-    h6{
-      font-family: Montserrat;
-      font-size: 15px;
-      line-height: 22px;
-      color: #000000;
-      margin-top: 2px;
-      letter-spacing: 3px;
-      }
-      .caption{
-        margin-top: -5px;
-      }
-      .caption2{
-        margin-top: -25px;
-      }
-      .caption3{
-        margin-top: -25px;
-      }
-      .caption4{
-        margin-top: -45px;
-      }
-      .caption5{
-        margin-top: 30px;
-      }
-      .caption6{
-        margin-top: 20px;
-      }
-      .caption7{
-        margin-top: 20px;
-      }
-      .caption9{
-        margin-top: -25px;
-      }
-      .caption10{
-        margin-top: 40px;
-      }
-      .caption11{
-        font-size: 15px;
-        margin-top: 10px;
-      }
-      .caption12{
-        margin-top: 43px;
-      }
-  }
-
-  /* this is for mobile phones */
-  @media screen and (max-width: 425px) {
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
-      width: 180px;
-      height: 160px;
-    }
-    .cards2{
-      margin-left: -126px;
-      margin-top: 10px;
-    }
-    .listof-products{
-      height: 140vh;
-    }
-    .card33{
-      margin-top: 15px;
-    }
-    .card44{
-      margin-top: -160px;
-    }
-    .card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
-      margin-top: 15px;
-    }
-    .card22,.card44,.card66,.card88,.card101,.card103{
-      margin-left: 350px;
-    }
-   
-    .producttype1,.producttype2,.producttype3,.producttype4{
-      width: 130px;
-      margin-left: 25px;
-      margin-top: 2px;
-    }
-    .producttype5{
-      width: 130px;
-      margin-left: 25px;
-      margin-top: 55px;
-    }
-    .producttype6{
-      width: 130px;
-      margin-left: 25px;
-      margin-top: 30px;
-    }
-    .producttype7{
-      width: 130px;
-      margin-left: 22px;
-      margin-top: 30px;
-    }
-    .producttype8{
-      width: 130px;
-      margin-left: 22px;
-      margin-top: 10px;
-    }
-    .producttype10{
-      width: 130px;
-      margin-left: 26px;
-      margin-top: 30px;
-    }
-    .producttype11{
-      width: 130px;
-      margin-left: 22px;
-      margin-top: 10px;
-    }
-    .producttype12{
-      width: 130px;
-      margin-left: 22px;
-      margin-top: 10px;
-    }
-    h6{
-      font-family: Montserrat;
-      font-size: 15px;
-      line-height: 22px;
-      color: #000000;
-      margin-top: 2px;
-      letter-spacing: 1.5px;
-      }
-    .caption,.caption2,.caption3{
-      margin-top: 3px;
-    }
-    .caption4{
-      margin-top: -20px;
-    }
-    .caption5,.caption6{
-      margin-top: 15px;
-    }
-    .caption7{
-      margin-top: 15px;
-    }
-    .caption9{
-      margin-top: -13px;
-    }
-    .caption10{
-      margin-top: 22px;
-    }
-    .caption11{
-      margin-top: 2px;
-    }
-    .caption12{
-      margin-top: 30px;
-    }
-  }
-
-  @media screen and (max-width: 375px) {
-    .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
-      width: 150px;
-      height: 130px;
-    }
-    .card44{
-      margin-top: -130px;
-    }
-    .cards2{
-      margin-left: -120px;
-    }
-    .card11,.card33,.card55,.card77{
-    margin-left: 150px;
-    }
-    .card22,.card44,.card66,.card88{
-      margin-left: 320px;
-    }
-    .card99{
-      margin-left: 230px;
-    }
-    .listof-products{
-      height: 100vh;
-    }
-    .producttype1,.producttype2,.producttype3,.producttype4{
-      width: 110px;
-      margin-left: 25px;
-      margin-top: 2px;
-    }
-    .producttype5{
-      width: 110px;
-      margin-left: 25px;
-      margin-top: 35px;
-    }
-    .producttype6{
-      width: 110px;
-      margin-left: 25px;
-      margin-top: 10px;
-    }
-    .producttype7{
-      width: 110px;
-      margin-left: 22px;
-      margin-top: 10px;
-    }
-    .producttype8{
-      width: 100px;
-      margin-left: 22px;
-      margin-top: 5px;
-    }
-    h6{
-      font-family: Montserrat;
-      font-size: 11px;
-      line-height: 22px;
-      color: #000000;
-      margin-top: 2px;
-      letter-spacing: 1.5px;
-      }
-    .caption,.caption2,.caption3{
-      margin-top: 3px;
-    }
-    .caption4{
-      margin-top: -20px;
-    }
-    .caption5,.caption6{
-      margin-top: 15px;
-    }
-    .caption7{
-      margin-top: 18px;
-    }
-    .caption8{
-      position: absolute;
-      margin-top: -2px;
-    }
-
-  }
- 
+}

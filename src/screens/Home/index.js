@@ -40,20 +40,20 @@ const Home = () => (
                     <Link to="/products">
                     <div className="card1">
                         <img src={type1} className="producttype1" alt="motherboard" />
-                        <h6 className="caption1" style={{textAlign: "center"}}>MOTHER BOARDS</h6>
+                        <h6 className="caption" style={{textAlign: "center"}}>MOTHER BOARDS</h6>
                     </div>
                     </Link>
                     <div className="card2">
                         <img src={type2} className="producttype2"  alt="moniters" />
-                        <h6 className="caption2" style={{textAlign: "center"}}>MONITORS</h6>
+                        <h6 className="caption" style={{textAlign: "center"}}>MONITORS</h6>
                     </div>
                     <div className="card3">
                         <img src={type3} className="producttype3"  alt="printers" />
-                        <h6 className="caption3" style={{textAlign: "center"}}>PRINTERS</h6>
+                        <h6 className="caption2" style={{textAlign: "center"}}>PRINTERS</h6>
                     </div>
                     <div className="card4">
                         <img src={type4} className="producttype4"  alt="keyboard" />
-                        <h6  className="caption323" style={{textAlign: "center"}}>COMPUTER PERIPHERALS</h6> 
+                        <h6  className="caption323" style={{textAlign: "center"}}>COMPUTER<br/>PERIPHERALS</h6> 
                     </div>
                     <Link to="/products"><button className="button" type="button">MORE</button></Link>  
                 </div>

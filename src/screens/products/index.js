@@ -29,7 +29,7 @@ const products = () => (
                         <div className="card11">
                             <Link to="/Motherboard">
                             <img src={type1} className="producttype1" alt="motherboard" />
-                            <h6 className="caption" style={{textAlign: "center"}}>MOTHER BOARDS</h6>
+                            <h6 className="caption1" style={{textAlign: "center"}}>MOTHER BOARDS</h6>
                             </Link>
                         </div>
                       

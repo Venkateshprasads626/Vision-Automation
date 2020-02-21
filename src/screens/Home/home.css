@@ -1,11 +1,3 @@
-
-
-  .About{
-    width: 100%;
-    height: 500px;
-    margin-bottom: 100px;
-  }
-
   .cardh1{
     position: relative;
     font-size: 36px;
@@ -167,181 +159,6 @@ h6{
   margin-top: -5px;
 }
 
-/* this is for pc */
-
-
- @media screen and (min-width: 1200px) {
-   .About{
-     width: 100%;
-   }
-   .cardh1{
-     text-align: center;
-     left: 0;
-     right: 0;
-     margin: auto;
-   }
-   .aboutustext{
-     position: absolute;
-     left: 0;
-     right: 0; 
-     margin: auto;
-   }
-   .cards{
-    width: 750px;
-    position: absolute;
-    left: 0;
-    right: 0; 
-    margin: auto;
-   }
-    .button{
-      margin-top: 60px;
-      margin-left: 292px;
-    }
-    .categories{
-      margin-top: -100px;
-    }
-    .categoriestext1{
-      margin-left: -210px;
-    }
-    .categoriestext2{
-      margin-left: 110px;
-    }
- }
-
- @media screen and (min-width: 992px) {
-  .aboutustext{
-    position: absolute;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    margin-left: 70px;
-    color: #000000;
-  }
-  .cardh1{
-    margin-top: -90px;
-  }
-  .categories{
-    margin-top: -250px;
-  }
-  .t{
-    margin-top: 30px;
-  }
-  .tt{
-    margin-top: 30px;
-  }
-  .cards{
-    margin-left: 145px;
-  }
-  .button{
-    margin-left: 290px;
-  }
- }
-
-@media screen and (min-width: 768px) {
-  .About{
-    width: 100%;
-    height: 500px;
-    margin-top: -200px;
-  }
-  .aboutustext{
-    font-size: 15px;
-    background: red;
-    right: 0;
-    left: 0;
-    position: absolute;
-    margin: auto;
-
-  }
-  .cardh1{
-    position: relative;
-    font-size: 36px;
-    text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-  }
-  .categories{
-    background: red;
-    max-height: 80vh;
-    margin-top: -150px;
-  }
-  .cards{
-    width: 59%;
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: auto;
-  }
-  .card1,.card2,.card3,.card4{
-    width: 200px;
-    height: 200px;
-  }
-  .card1,.card3{
-    margin-left: 0px;
-  }
-  .card3{
-    margin-top: 50px;
-  }
-  .card2{
-    margin-left: 250px;
-  }
-  .card4{
-    margin-top: -200px;
-    margin-left: 250px;
-  }
-  .producttype1{
-    width: 180px;
-    height: 180px;
-    margin-left: 50px;
-  }
-  .producttype2{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  .producttype3{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  .producttype4{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  
-
-  .button{
-    margin-left: 150px;
-    margin-top: 50px;
-  }
-  h6{
-    font-family: Montserrat;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-    margin-top: 10px;
-    letter-spacing: 5px;
-    }
-    .caption1{
-      margin-top: -5px;
-    }
-    .caption2{
-      margin-top: -10px;
-    }
-    .caption3{
-      margin-top: -35px;
-    }
-    .caption323{
-      margin-top: -45px;
-    }
-}
-
-/* this is for mobile phones */
 @media screen and (max-width: 425px) {
 .About{
   margin-top: -350px;
@@ -534,7 +351,208 @@ h6{
     }
     .caption2{
       margin-top: 2px;
-    }
-    
-    
+    }  
 }
+
+
+
+@media screen and (min-width: 768px) {
+  .About{
+    width: 100%;
+    height: 400px;
+    margin-top: -150px;
+  }
+  .aboutustext{
+    font-size: 15px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin: auto;
+  }
+
+  .cardh1{
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .categories{
+    height: 90vh;
+  }
+  .cards{
+    width: 450px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 200px;
+    height: 200px;
+  }
+  .card3{
+    margin-top: 50px;
+  }
+  .card4{
+   margin-top: -200px;
+  }
+  .producttype1{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .producttype2{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .producttype3{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .producttype4{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .card2{
+    margin-left: 250px;
+  }
+  .card4{
+    margin-left: 250px;
+  }
+  .button{
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  h6{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    }
+    .caption{
+      margin-top: -20px;
+    }
+    .caption2{
+      margin-top: -10px;
+    }
+    .caption323{
+      margin-top: -45px;
+      text-align: center;
+    }
+}
+@media screen and (min-width: 992px) {
+  .About{
+    position: absolute;
+     margin-top: 20px;
+  }
+ .aboutustext{
+   position: absolute;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: center;
+   color: #000000;
+   left: 0;
+   right: 0; 
+   margin: auto;
+ }
+ .cardh1{
+   margin-top: -90px;
+ }
+ .categories{
+   margin-top: 350px;
+ }
+ .t{
+   margin-top: 30px;
+ }
+ .tt{
+   margin-top: 30px;
+ }
+ .card1,.card2,.card3,.card4{
+  width: 340px;
+  height: 283px;
+}
+.card2{
+  margin-left: 400px;
+}
+.card4{
+  margin-top: -283px;
+  margin-left: 400px;
+}
+ .cards{
+   width: 740px;
+   position: absolute;
+   left: 0;
+   right: 0; 
+   margin: auto;
+ }
+ .categories{
+   height: 110vh;
+ }
+ .button{
+  margin-top: 60px;
+  margin-left: 290px;
+ }
+ .caption{
+   margin-top: 15px;
+ }
+ .caption2{
+   margin-top: 20px;
+ }
+ .caption323{
+   margin-top: -10px;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+  .About{
+    width: 100%;
+  }
+  .cardh1{
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .aboutustext{
+    position: absolute;
+    left: 0;
+    right: 0; 
+    margin: auto;
+  }
+  .cards{
+   width: 740px;
+   position: absolute;
+   left: 0;
+   right: 0; 
+   margin: auto;
+  }
+   .button{
+     margin-top: 50px;
+     margin-left: 292px;
+   }
+   .categories{
+     height: 108vh;
+     margin-top: 500px;
+   }
+   .categoriestext1{
+     margin-left: -210px;
+   }
+   .categoriestext2{
+     margin-left: 110px;
+   }
+}
+
