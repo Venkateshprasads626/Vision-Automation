@@ -12,21 +12,8 @@ footer{
     height: 150px;
     margin-top: -10px;
   }
-  .box2{
-    margin: 0;
-    position: absolute;
-    top: 53%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-left: 350px;
-  }
-  .secondhr{
-    position: absolute;
-    width: 900px;
-    border: 1px solid white;
-    margin-top: 230px;
-    margin-left: 20%;
-  }
+
+
   
   .addresstext{
     font-family: 'Montserrat', sans-serif;
@@ -125,21 +112,31 @@ footer{
  
   /* this is for pc */
   
-  @media screen and (min-width: 1441px) {
-    .footer{
-      left: 0;
-      right: 0;
-      margin:auto;
-    }
- 
-    .secondhr{
-      margin-top: 230px;
-    }
+  @media screen and (min-width: 1200px) {
+
+   .logo1{
+    width: 180px;
+    height: 150px;
+    margin-top: -10px;
+  }
     .box2{
-      margin-left: 270px;
+      margin: 0;
+      position: absolute;
+      top: 53%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      
+    }
+    .secondhr{
+      position: absolute;
+      width: 900px;
+      border: 1px solid white;
+      margin-top: 170px;
+      margin-left: 8%;
     }
     .navbar{
-      margin-left: 350px;
+      margin-left: 30px;
+      margin-top: 0px;
     }
     .upangle{
       margin-left: 300px;
@@ -179,9 +176,11 @@ footer{
       margin-left: 200px;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     .box2{
       margin-left: 210px;
+      position: absolute;
+      margin-top: 100px;
     }
     .logo1{
       width: 100px;
@@ -189,6 +188,11 @@ footer{
     }
     .secondhr{
       width: 700px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      margin: auto;
+      top: 200px;
     }
     .text1{
       font-size: 12px;
@@ -212,10 +216,15 @@ footer{
     }
     .navbar li{
       font-size: 16px;
-      margin-left: -20px;
+      margin-left: 40px;
+    }
+    .navbar{
+      position: absolute;
+      margin-top: 220px;
     }
     .upangle{
       margin-left: 10px;
+      margin-top: 260px;
     }
   }
   /* this is for mobile phones */

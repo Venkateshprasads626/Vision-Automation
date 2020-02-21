@@ -208,7 +208,7 @@ h6{
     }
  }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (min-width: 992px) {
   .aboutustext{
     position: absolute;
     font-family: Montserrat;
@@ -240,23 +240,20 @@ h6{
   }
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .About{
     width: 100%;
     height: 500px;
     margin-top: -200px;
   }
   .aboutustext{
-    font-size: 11px;
-  }
-  .card{
-    width: 250px;
-    height: 240px;
-    background: #C4C4C4;
-    border-radius: 4px;
-    float: right;
-    margin-right: 80px;
-    margin-top: 5px;
+    font-size: 15px;
+    background: red;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin: auto;
+
   }
   .cardh1{
     position: relative;
@@ -267,18 +264,34 @@ h6{
     font-weight: 600;
     font-size: 30px;
   }
+  .categories{
+    background: red;
+    max-height: 80vh;
+    margin-top: -150px;
+  }
   .cards{
-    margin-left: 65px;
+    width: 59%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
   }
   .card1,.card2,.card3,.card4{
-    width: 290px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+  }
+  .card1,.card3{
+    margin-left: 0px;
   }
   .card3{
     margin-top: 50px;
   }
+  .card2{
+    margin-left: 250px;
+  }
   .card4{
-    margin-top: -250px;
+    margin-top: -200px;
+    margin-left: 250px;
   }
   .producttype1{
     width: 180px;
@@ -300,14 +313,10 @@ h6{
     height: 200px;
     margin-left: 50px;
   }
-  .card2{
-    margin-left: 350px;
-  }
-  .card4{
-    margin-left: 350px;
-  }
+  
+
   .button{
-    margin-left: 240px;
+    margin-left: 150px;
     margin-top: 50px;
   }
   h6{
@@ -318,14 +327,17 @@ h6{
     margin-top: 10px;
     letter-spacing: 5px;
     }
-    .caption{
-      margin-top: -20px;
+    .caption1{
+      margin-top: -5px;
     }
     .caption2{
       margin-top: -10px;
     }
     .caption3{
       margin-top: -35px;
+    }
+    .caption323{
+      margin-top: -45px;
     }
 }
 

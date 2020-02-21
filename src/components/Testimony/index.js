@@ -108,11 +108,13 @@ class Testimony extends Component{
                     <div class="slide">
                        
                         <div className="testimony-data">
+                          <div className="testidata">
                             <p className="testi1">My experience working with Mr Hitesh Jain Vision Automation is very much a positive  <br/></p>
                             <p className="testi2">one from 2010 to till date.I will be appreciating his professionalism towards </p><br/>
                             <p className="testi3">swift service and quality product supplying. I look forward to many</p>
                             <p className="testi44">more business opportunities in the future.</p>
                             <p className="testi4" style={{color: "green"}}>- Mr Shreenivas, Manager IT operations</p>
+                          </div>
                         </div>
                     </div>
                         <div class="slide">

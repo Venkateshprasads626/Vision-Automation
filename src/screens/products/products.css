@@ -277,15 +277,17 @@
   
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 992px) {
     .cards2{
-      margin-left: 150px;
+      right: 0;
+      left: 0;
+      position: absolute;
+      margin: auto;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     .producttext1{
       margin-left: -190px;
-      
     }
     .producttext2{
       margin-left: 80px;
@@ -294,18 +296,24 @@
       margin-right: 50px;
     }
     .listof-products{
-      height: 200vh;
+      height: 185vh;
+      background: red;
     }
     .cards2{
-      margin-left: 10px;
+      background: blue;
+      width: 450px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      margin: auto;
     }
     .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
       width: 200px;
       height: 200px;
     }
-    .card11,.card33,.card55,.card77,.card99,.card102{
-      margin-left: 150px;
-    }
+   .card22,.card44,.card66,.card88,.card101,.card103{
+     margin-left: 250px;
+   }
    
     .card33{
       margin-top: 50px;
