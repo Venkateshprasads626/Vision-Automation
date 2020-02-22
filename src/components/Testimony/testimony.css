@@ -199,6 +199,217 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  .slide_viewer {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .testimony-data{
+    position: absolute;
+    font-size: 15px;
+    font-family: Poppins;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.testimony-data2{
+  position: absolute;
+  font-size: 15px;
+  font-family: Poppins;
+  margin-left: 0px;
+  margin-top: 120px;
+}
+.testimony-data3{
+  position: absolute;
+  font-size: 15px;
+  font-family: Poppins;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.testi1{
+  margin-left: 80px;
+}
+.testi2{
+  margin-top: -18px;
+  margin-left: 120px;
+}
+.testi3{
+  margin-top: -45px;
+  margin-left: 140px;
+}
+.testi44{
+  margin-top: -15px;
+  margin-left: 230px;
+}
+.testi4{
+  margin-top: 15px;
+  margin-left: 240px;
+}
+.testi5{
+  margin-top: -60px;
+  margin-left: 180px;
+}
+.testi6{
+  margin-top: -15px;
+  margin-left: 100px;
+}
+.testi7{
+  margin-top: -40px;
+  margin-left: 45px;
+}
+.testi8{
+  margin-top: -20px;
+  margin-left: 50px;
+}
+.testi9{
+  margin-top: -20px;
+  margin-left: 180px;
+}
+.testi99{
+  margin-top: -20px;
+  margin-left: 150px;
+}
+.testi10{
+  margin-top: 15px;
+  margin-left: 250px;
+}
+.testi11{
+  margin-top: 44px;
+  margin-left: 130px;
+}
+.testi12{
+  margin-top: -20px;
+  margin-left: 180px;
+}
+.testi13{
+  margin-top: -40px;
+  margin-left: 150px;
+}
+.testi114{
+  margin-left: 120px;
+}
+}
 
+@media screen and (min-width: 992px) {
+  .testimony-data{
+    position: absolute;
+    font-size: 15px;
+    font-family: Poppins;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.testimony-data2{
+  position: absolute;
+  font-size: 15px;
+  font-family: Poppins;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.testimony-data3{
+  position: absolute;
+  font-size: 15px;
+  font-family: Poppins;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+  .slide_viewer {
+    height: 233px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 98px;
+   
+}
+
+.testimony-data{
+    position: absolute;
+    font-size: 9.5px;
+    font-family: Poppins;
+    margin-left: 0px;
+    margin-top: 60px;
+    width: 500px;
+}
+.testimony-data2{
+    position: absolute;
+    font-size: 9px;
+    font-family: Poppins;
+    margin-left: 0px;
+    margin-top: 130px;
+}
+.testimony-data3{
+  position: absolute;
+  font-size: 9.5px;
+  font-family: Poppins;
+  margin-left: 0px;
+  margin-top: 80px;
+}
+.testi1{
+  margin-left: 15px;
+}
+.testi2{
+  margin-top: -5px;
+  margin-left: 40px;
+}
+.testi3{
+  margin-top: -20px;
+  margin-left: 60px;
+}
+.testi44{
+  margin-top: -10px;
+  margin-left: 130px;
+}
+.testi4{
+  margin-top: 15px;
+  margin-left: 130px;
+}
+.testi5{
+  margin-top: -60px;
+  margin-left: 70px;
+}
+.testi6{
+  margin-top: -5px;
+  margin-left: 30px;
+}
+.testi7{
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.testi8{
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.testi9{
+  margin-top: -10px;
+  margin-left: 80px;
+}
+.testi99{
+  margin-top: -10px;
+  margin-left: 50px;
+}
+.testi10{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.testi11{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.testi12{
+  margin-top: -5px;
+  margin-left: 50px;
+}
+.testi13{
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.testi114{
+  margin-left: 20px;
+}
 }

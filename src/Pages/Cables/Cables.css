@@ -84,7 +84,7 @@
     height: 135px;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .Cables{
         margin-left: 0px;
         height: 62vh;
@@ -104,7 +104,7 @@
     .brands-categories7{
         margin-lefT: 140px;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     .brands-categories7{
@@ -118,16 +118,18 @@
         height: 60vh;
     }
     .Cable-header{
-        margin-left: 10px;
+        margin-left: -300px;
         font-size: 23px;
     }
-    .header-caption{
-        margin-left: 10px;
-    }
+    
     .brands-categories7{
         width: 90%;
         height: 330px;
-        margin-left: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
     }
     .Honeywell{
         margin-left: 20px;

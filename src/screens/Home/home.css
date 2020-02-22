@@ -93,10 +93,7 @@
   .card4:hover{
     transform: scale(1.2);
   }
-.producttype1{
-  margin-left: 60px;
-  margin-top: 20px;
-} 
+
 .producttype2{
   margin-left: 40px;
   margin-top: 30px;
@@ -158,201 +155,10 @@ h6{
 .caption323{
   margin-top: -5px;
 }
-
-@media screen and (max-width: 425px) {
-.About{
-  margin-top: -350px;
-}
-.cardh1{
-  margin-top: 10px;
-  text-align: center;
-  margin-right: 70px;
-}
-.cards{
-  margin-top: -5px;
-}
-.aboutustext{
-  font-size: 10px;
-  margin-top: -10px;
-  margin-left: -15px;
-}
-.categories{
-  width: 100%;
-  height: 530px;
-  margin-top: -380px;
-
-
-}
-.categoriestext1{
-  font-size: 25px;
-  margin-left: -160px;
-}
-.categoriestext2{
-  font-size: 25px;
-  margin-top: -55px;
-  margin-left: 110px;
-}
-.categoriestext3{
-  margin-left: 10px;
-}
-.card1{
-  width: 180px;
-  height: 160px;
-  margin-left: -40px;
-}
-.card2{
-  width: 180px;
-  height: 160px;
-  margin-left: 150px;
-
-}
-.card3{
-  width: 180px;
-  height: 160px;
-  margin-top: 10px;
-  margin-left: -40px;
-}
-.card4{
-  width: 180px;
-  height: 160px;
-  margin-top: -160px;
-  margin-left: 150px;
-}
-.producttype1{
-  margin-left: 30px;
-  margin-top: 10px;
-  width: 120px;
-  height: 120px;
-}
-.producttype2{
-  margin-left: 30px;
-  margin-top: 10px;
-  width: 120px;
-  height: 120px;
-}
-.producttype3{
-  margin-left: 30px;
-  margin-top: 10px;
-  width: 120px;
-  height: 120px;
-}
-.producttype4{
-  margin-left: 30px;
-  margin-top: 10px;
-  width: 120px;
-  height: 120px;
-}
-.button{
-  margin-top: 30px;
-  margin-left: 85px;
-  width: 120px;
-  height: 40px;
-}
-.card1:hover{
-  transform: none;
-}
-.card2:hover{
-  transform: none;
-}
-.card3:hover{
-  transform: none;
-}
-.card4:hover{
-  transform: none;
-}
-h6{
-  font-family: Montserrat;
-  font-size: 12px;
-  line-height: 22px;
-  color: #000000;
-  margin-top: 2px;
-  letter-spacing: 3px;
-  }
-  .caption{
-    margin-top: 2px;
-  }
-  .caption2{
-    margin-top: 2px;
-  }
-  .caption323{
-    margin-top: -15px;
-  }
+.caption3{
+  margin-top: 11px;
 }
 
-@media screen and (max-width: 375px) {
-  .categories{
-    height: 550px;
-  }
-  .card{
-    margin-right: 80px;
-  }
-  .cardh1{
-    margin-left: 25px;
-  }
-  .aboutustext{
-    margin-left: -5px;
-  }
-  .categoriestext1{
-    margin-left: -180px;
-  }
-  .categoriestext2{
-    margin-left: 135px;
-  }
-  .categoriestext3{
-    margin-left: 5px;
-  }
-  .cards{
-   
-    margin-left: 38px;
-  }
-  .button{
-    margin-left: 100px;
-  }
-  .card1,.card2,.card3,.card4{
-    width: 150px;
-    height: 130px;
-  }
-  .producttype1{
-    width: 100px;
-    height: 90px;
-  }
-  .producttype2{
-    width: 100px;
-    height: 90px;
-  }
-  .producttype3{
-    width: 100px;
-    height: 90px;
-  }
-  .producttype4{
-    width: 100px;
-    height: 90px;
-  }
-  .card1,.card3{
-    margin-left: -10px;
-  }
-  .card4{
-    margin-top: -130px;
-  }
-  .button{
-    width: 130px;
-    margin-left: 80px;
-  }
-  h6{
-    font-family: Montserrat;
-    font-size: 11px;
-    line-height: 22px;
-    color: #000000;
-    margin-top: 2px;
-    letter-spacing: 1px;
-    }
-    .caption{
-      margin-top: 2px;
-    }
-    .caption2{
-      margin-top: 2px;
-    }  
-}
 
 
 
@@ -401,33 +207,13 @@ h6{
   }
   .card4{
    margin-top: -200px;
+   margin-left: 250px;
   }
-  .producttype1{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  .producttype2{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  .producttype3{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
-  .producttype4{
-    width: 200px;
-    height: 200px;
-    margin-left: 50px;
-  }
+
   .card2{
     margin-left: 250px;
   }
-  .card4{
-    margin-left: 250px;
-  }
+
   .button{
     margin-left: 150px;
     margin-top: 50px;
@@ -451,6 +237,7 @@ h6{
       text-align: center;
     }
 }
+
 @media screen and (min-width: 992px) {
   .About{
     position: absolute;
@@ -499,6 +286,7 @@ h6{
    right: 0; 
    margin: auto;
  }
+
  .categories{
    height: 110vh;
  }
@@ -510,7 +298,7 @@ h6{
    margin-top: 15px;
  }
  .caption2{
-   margin-top: 20px;
+   margin-top: 15px;
  }
  .caption323{
    margin-top: -10px;
@@ -556,3 +344,206 @@ h6{
    }
 }
 
+@media screen and (max-width: 425px) {
+  .About{
+    margin-top: -350px;
+  }
+  .cardh1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .cards{
+    margin-top: -5px;
+    width: 380px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .aboutustext{
+    font-size: 10px;
+    margin-top: -10px;
+    line-height: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+
+  }
+  .categories{
+    width: 100%;
+    height: 530px;
+    margin-top: 250px;
+  }
+  .categoriestext1{
+    font-size: 25px;
+    margin-left: -160px;
+  }
+  .categoriestext2{
+    font-size: 25px;
+    margin-top: -55px;
+    margin-left: 110px;
+  }
+  .categoriestext3{
+    margin-left: 10px;
+  }
+  .card1{
+    width: 180px;
+    height: 160px
+  }
+  .card2{
+    width: 180px;
+    height: 160px;
+    margin-left: 200px;
+  
+  }
+  .card3{
+    width: 180px;
+    height: 160px;
+    margin-top: 10px;
+  }
+  .card4{
+    width: 180px;
+    height: 160px;
+    margin-top: -160px;
+    margin-left: 200px;
+  }
+  .producttype1{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .producttype2{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .producttype3{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .producttype4{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  .button{
+    margin-top: 30px;
+    margin-left: 130px;
+    width: 120px;
+    height: 40px;
+  }
+  .card1:hover{
+    transform: none;
+  }
+  .card2:hover{
+    transform: none;
+  }
+  .card3:hover{
+    transform: none;
+  }
+  .card4:hover{
+    transform: none;
+  }
+  h6{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 2px;
+    letter-spacing: 3px;
+    }
+    .caption{
+      margin-top: 2px;
+    }
+    .caption2{
+      margin-top: 2px;
+    }
+    .caption323{
+      margin-top: -16px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .categories{
+      height: 450px;
+    }
+    .card{
+      margin-right: 80px;
+    }
+   
+    .aboutustext{
+      font-size: 8px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      margin: auto;
+    }
+    .categoriestext1{
+      margin-left: -130px;
+    }
+    .categoriestext2{
+      margin-left: 135px;
+    }
+    .categoriestext3{
+      margin-left: 5px;
+    }
+    .cards{
+      width: 315px;
+    }
+    .button{
+      margin-left: 100px;
+    }
+    .card1,.card2,.card3,.card4{
+      width: 150px;
+      height: 130px;
+    }
+    .producttype1{
+      width: 100px;
+      height: 90px;
+    }
+    .producttype2{
+      width: 100px;
+      height: 90px;
+    }
+    .producttype3{
+      width: 100px;
+      height: 90px;
+    }
+    .producttype4{
+      width: 100px;
+      height: 90px;
+    }
+    .card2,.card4{
+     margin-left: 165px;
+    }
+    .card4{
+      margin-top: -130px;
+    }
+    .button{
+      width: 130px;
+      margin-left: 95px;
+    }
+    h6{
+      font-family: Montserrat;
+      font-size: 11px;
+      line-height: 22px;
+      color: #000000;
+      margin-top: 2px;
+      letter-spacing: 1px;
+      }
+      .caption{
+        margin-top: 2px;
+      }
+      .caption2{
+        margin-top: 2px
+      }  
+  }
+  
+  

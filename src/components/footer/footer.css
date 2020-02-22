@@ -180,6 +180,7 @@ footer{
     }
   }
   @media screen and (max-width: 768px) {
+   
     .box2{
       margin-left: 210px;
     }
@@ -221,12 +222,14 @@ footer{
   /* this is for mobile phones */
   @media screen and (max-width: 425px) {
     footer{
-      height: 130px;
-      padding: 35px;
       width: 100%;
+      height: 130px;
+      overflow:hidden;
+      margin:0;
+      padding: 0em 0em 2em 0em;
     }
     .footercontent{
-      margin-left: -180px;
+      margin-left: -150px;
     }
     .box2{
       margin-left: 170px;
@@ -256,7 +259,7 @@ footer{
       line-height:10px;
     }
     .secondhr{
-      margin-top: 103px;
+      margin-top: 110px;
       width: 380px;
       margin-left: 170px;
     }
@@ -279,14 +282,14 @@ footer{
       background: linear-gradient(180deg, #3EB971 0%, #459CA9 100%);
       border-radius: 50%;
       display: inline-block;
-      margin-top: -50px;
+      margin-top: -80px;
       margin-left: 800px;
       cursor: pointer;
     }
     .fa-angle-up{
       font-size: 20px;
       position: absolute;
-      margin-top: -52px;
+      margin-top: -82px;
       margin-left: 804px;
       cursor: pointer;
     }
@@ -298,6 +301,16 @@ footer{
   @media screen and (max-width: 375px) {
    
     .footercontent{
-      margin-left: -200px;
+      margin-left: -160px;
+    }
+    .secondhr{
+      margin-top: 110px;
+      width: 350px;
+      margin-left: 170px;
+    }
+  
+    .upangle{
+      margin-left: -350px;
+      margin-top: 30px;
     }
   }

@@ -1,0 +1,216 @@
+
+@media screen and (min-width: 768px) {
+    .POS{
+        height: 500px;
+    }
+    .pos-header{
+        text-align: center;
+        letter-spacing: 5px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .header-caption3{
+        position: absolute;
+        top: 330px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        color: #000000;
+        margin-top: -50px;
+     }
+    .brands-categories11{
+        position: absolute;
+        width: 762px;
+        height: 380px;
+        background: #FFFFFF;
+        border: 3px solid rgba(79, 79, 79, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .hp8{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .Tvs4{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+    .epson5{
+        position: absolute;
+        margin-left: 520px;
+        margin-top: 40px;
+    }
+    .Honeywell3{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+    .Tsc{
+        position: absolute;
+        margin-left: 270px;
+        margin-top: 180px;
+    }
+    .posiflex{
+        position: absolute;
+        margin-left: 515px;
+        margin-top: 180px;
+    }
+    .zebra{
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .POS{
+        height: 620px;
+    }
+    .pos-header{
+        text-align: center;
+        letter-spacing: 5px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .header-caption3{
+        position: absolute;
+        top: 330px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        margin-top: -120px;
+     }
+    .brands-categories11{
+        position: absolute;
+        width: 90%;
+        height: 480px;
+        background: #FFFFFF;
+        border: 3px solid rgba(79, 79, 79, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .hp8{
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .Tvs4{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 220px;
+        width: 120px;
+        height: 70px;
+    }
+    .tvs4logo{
+        width: 120px;
+        height: 70px;
+    }
+    .epson5{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 150px;
+        width: 110px;
+        height: 70px;
+    }
+    .epson5logo{
+        width: 110px;
+        height: 70px;
+    }
+    .Honeywell3{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 220px;
+    }
+
+    .Tsc{
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 145px;
+    }
+    .Tsclogo{
+        width: 120px;
+        height: 70px;
+    }
+    .posiflex{
+        position: absolute;
+        margin-left: 230px;
+        margin-top: 250px;
+    }
+    .posiflexlogo{
+        width: 120px;
+        height: 70px;
+    }
+    .zebra{
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 330px;
+    }
+    .zebralogo{
+        width: 150px;
+        height: 90px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .pos-header{
+        font-size: 15px;
+    }
+    .header-caption3{
+        margin-top: -140px;
+        font-size: 13.5px;
+    }
+    .hp8{
+        margin-left: 50px;
+    }
+    .Tvs4{
+        margin-left: 190px;
+    }
+    .epson5{
+        margin-left: 40px;
+    }
+    .Tsc{
+        margin-left: 190px;
+    }
+    .Honeywell3{
+        margin-left: 35px;
+    }
+    .posiflex{
+        margin-left: 200px;
+    }
+    .zebra{
+        margin-left: 100px;
+
+    }
+}

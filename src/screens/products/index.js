@@ -48,7 +48,7 @@ const products = () => (
                         <div className="card44">
                             <Link to="/computerperipherals">
                                 <img src={type4} className="producttype4" alt="computer peripherals" />
-                                <h6  className="caption4"style={{textAlign: "center"}}>COMPUTER PERIPHERALS</h6> 
+                                <h6  className="caption323"style={{textAlign: "center"}}>COMPUTER<br/>PERIPHERALS</h6> 
                             </Link>
                         </div>
                         <div className="card55">
@@ -66,19 +66,19 @@ const products = () => (
                         <div className="card77">
                             <Link to="/Cables">
                                 <img src={type7} className="producttype7" alt="motherboard" />
-                                <h6 className="caption7" style={{textAlign: "center"}}>CABLES & CONNECTORS</h6>
+                                <h6 className="caption7" style={{textAlign: "center"}}>CABLES&<br/> CONNECTORS</h6>
                             </Link>
                         </div>
                         <div className="card88">
                             <Link to="/Lifestyle">
                                 <img src={type8} className="producttype8" alt="motherboard" />
-                                <h6 className="caption8" style={{textAlign: "center"}}>LIFESTYLE PRODUCTS</h6>
+                                <h6 className="caption8" style={{textAlign: "center"}}>LIFESTYLE<br/>PRODUCTS</h6>
                             </Link>
                         </div>
                         <div className="card99">
                             <Link to="/Servers">
-                                <img src={type9} className="producttype1" alt="motherboard" />
-                                <h6 className="caption9" style={{textAlign: "center"}}>SERVER & WORKSTATION</h6>
+                                <img src={type9} className="producttype9" alt="motherboard" />
+                                <h6 className="caption9" style={{textAlign: "center"}}>SERVER & <br/>WORKSTATION</h6>
                             </Link>
                         </div>
                         <div className="card101">
@@ -90,11 +90,11 @@ const products = () => (
                         <div className="card102">
                             <Link to="/POS">
                                 <img src={type11} className="producttype11" alt="motherboard" />
-                                <h6 className="caption11" style={{textAlign: "center"}}>POS(Ponit of sale -Retail)</h6>
+                                <h6 className="caption11" style={{textAlign: "center"}}>POS<br/>(Ponit of sale -Retail)</h6>
                             </Link>
                         </div>
                         <div className="card103">
-                            <Link to="/Softwares">
+                            <Link to="/Software">
                                 <img src={type12} className="producttype12" alt="motherboard" />
                                 <h6 className="caption12" style={{textAlign: "center"}}>SOFTWARES</h6>
                             </Link>

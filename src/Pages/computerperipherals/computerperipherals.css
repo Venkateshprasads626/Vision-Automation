@@ -180,8 +180,13 @@ margin-left: 550px;
         height: 130vh;
     }
     .brands-categories4{
-        width: 100%;
+        width: 90%;
         height: 900px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+        margin-top: 100px;
     }
    
     .dell{
@@ -282,7 +287,7 @@ margin-left: 550px;
     }
     .westerndigital{
         margin-top: 560px;
-        margin-left: 250px;
+        margin-left: 220px;
     }
     .westerndigitallogo{
         width: 150px;

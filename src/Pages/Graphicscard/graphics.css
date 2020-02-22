@@ -90,7 +90,7 @@ height: 126px;
 /* this is for mobile phones */
 @media screen and (max-width: 425px) {
     .Graphicscard{
-        height: 40vh;
+        height: 50vh;
         
     }
     .graphic-header{
@@ -102,7 +102,11 @@ height: 126px;
     .brands-categories10{
         width: 90%;
         height: 200px;
-        margin-left: 18px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
     }
     .asus55{
         width: 100px;

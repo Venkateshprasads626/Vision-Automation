@@ -105,7 +105,10 @@
     .brands-categories3{
         width: 80%;
         height: 450px;
-        margin-left: -5px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
     }
     .canon{
         position: absolute;

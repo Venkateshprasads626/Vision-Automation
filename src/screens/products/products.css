@@ -276,10 +276,26 @@
   }
 
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 992px) {
+  .producttype1{
+    margin-left: 50px;
+  }
+  .caption1{
+    margin-top: 30px;
+  }
+  .caption2{
+    margin-top: 20px;
+  }
+  .listof-products{
+  
+    height: 2100px;
+  }
   .cards2{
-    margin-left: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 740px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -297,26 +313,37 @@
     height: 200vh;
   }
   .cards2{
-    margin-left: 10px;
+    width: 450px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
   }
   .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
     width: 200px;
     height: 200px;
   }
   .card11,.card33,.card55,.card77,.card99,.card102{
-    margin-left: 150px;
+    margin-left: 0px;
   }
- 
+  .card22,.card44,.card66,.card88,.card101,.card103{
+    margin-left: 250px;
+  }
   .card33{
     margin-top: 50px;
   }
   .card44{
     margin-top: -200px;
   }
-  .producttype1,.producttype2,.producttype3,.producttype4{
-    width: 150px;
-    margin-left: 25px;
-    margin-top: -8px;
+  .producttype2,.producttype3,.producttype4{
+    width: 178px;
+    margin-left: 15px;
+    margin-top: 14px;
+  }
+  .producttype1{
+    width: 165px;
+    margin-left: 15px;
+    margin-top: 3px;
   }
   .producttype5{
     width: 150px;
@@ -362,16 +389,16 @@
     letter-spacing: 3px;
     }
     .caption1{
-      margin-top: -5px;
+      margin-top: 0px;
     }
     .caption2{
-      margin-top: -25px;
+      margin-top: 20px;
     }
     .caption3{
-      margin-top: -25px;
+      margin-top: 20px;
     }
-    .caption4{
-      margin-top: -45px;
+    .caption323{
+      margin-top: 15px;
     }
     .caption5{
       margin-top: 30px;
@@ -380,10 +407,15 @@
       margin-top: 20px;
     }
     .caption7{
-      margin-top: 20px;
+      margin-top: 25px;
+     
+    }
+    .caption8{
+      margin-top: 5px;
+    
     }
     .caption9{
-      margin-top: -25px;
+      margin-top: -45px;
     }
     .caption10{
       margin-top: 40px;
@@ -399,13 +431,18 @@
 
 /* this is for mobile phones */
 @media screen and (max-width: 425px) {
+  html,body{
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
   .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
     width: 180px;
     height: 160px;
   }
   .cards2{
-    margin-left: -126px;
     margin-top: 10px;
+    left: 0;
+    width: 380px;
   }
   .listof-products{
     height: 140vh;
@@ -420,7 +457,7 @@
     margin-top: 15px;
   }
   .card22,.card44,.card66,.card88,.card101,.card103{
-    margin-left: 350px;
+    margin-left: 200px;
   }
  
   .producttype1,.producttype2,.producttype3,.producttype4{
@@ -474,8 +511,8 @@
   .caption,.caption2,.caption3{
     margin-top: 3px;
   }
-  .caption4{
-    margin-top: -20px;
+  .caption323{
+    margin-top: -15px;
   }
   .caption5,.caption6{
     margin-top: 15px;
@@ -495,10 +532,11 @@
   .caption12{
     margin-top: 30px;
   }
+
 }
 
 @media screen and (max-width: 375px) {
-  .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99{
+  .card11,.card22,.card33,.card44,.card55,.card66,.card77,.card88,.card99,.card101,.card102,.card103{
     width: 150px;
     height: 130px;
   }
@@ -508,17 +546,15 @@
   .cards2{
     margin-left: -120px;
   }
-  .card11,.card33,.card55,.card77{
+  .card11,.card33,.card55,.card77,.card99,.card102{
   margin-left: 150px;
   }
-  .card22,.card44,.card66,.card88{
+  .card22,.card44,.card66,.card88,.card101,.card103{
     margin-left: 320px;
   }
-  .card99{
-    margin-left: 230px;
-  }
+ 
   .listof-products{
-    height: 100vh;
+    height: 120vh;
   }
   .producttype1,.producttype2,.producttype3,.producttype4{
     width: 110px;
@@ -541,6 +577,26 @@
     margin-top: 10px;
   }
   .producttype8{
+    width: 100px;
+    margin-left: 22px;
+    margin-top: 5px;
+  }
+  .producttype9{
+    width: 100px;
+    margin-left: 22px;
+    margin-top: 5px;
+  }
+  .producttype10{
+    width: 100px;
+    margin-left: 22px;
+    margin-top: 20px;
+  }
+  .producttype11{
+    width: 100px;
+    margin-left: 22px;
+    margin-top: 5px;
+  }
+  .producttype12{
     width: 100px;
     margin-left: 22px;
     margin-top: 5px;
@@ -568,6 +624,14 @@
   .caption8{
     position: absolute;
     margin-top: -2px;
+  }
+  .caption9{
+    margin-top: -20px;
+    line-height: 18px;
+  }
+  .caption11{
+    font-size: 8px;
+    line-height: 10px;
   }
 
 }

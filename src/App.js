@@ -17,6 +17,9 @@ import Cables from './Pages/Cables'
 import Lifestyle from './Pages/Lifestyle';
 import Servers from './Pages/Servers'
 import Graphicscard from './Pages/Graphicscard';
+import POS from './Pages/POS'
+import Software from './Pages/Softwares'
+
 
 function App() {
   return (
@@ -38,6 +41,8 @@ function App() {
           <Route path="/Lifestyle" component={Lifestyle} />
           <Route path="/Servers" component={Servers} />
           <Route path="/Graphicscard" component={Graphicscard} />
+          <Route path="/POS" component={POS} />
+          <Route path="/Software" component={Software} />
         </Switch>
       </BrowserRouter>
     </div>

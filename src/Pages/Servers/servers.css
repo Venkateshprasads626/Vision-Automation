@@ -70,10 +70,14 @@
     .brands-categories9{
         width: 90%;
         height: 200px;
-        margin-left: 18px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
     }
     .Server-header{
-        font-size: 22px;
+        font-size: 18px;
     }
     .dell4{
         width: 100px;
