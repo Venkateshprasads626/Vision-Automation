@@ -192,7 +192,11 @@
 
 @media screen and (max-width: 375px) {
     .brands-categories2{
-        margin-left: -10px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        margin-top: 50px;
     }
     .asus1{
         position: absolute;

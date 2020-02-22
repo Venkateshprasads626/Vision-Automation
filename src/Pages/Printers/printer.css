@@ -168,6 +168,10 @@
         margin-left: -95px;
     }
     .brands-categories3{
-        margin-left: -10px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      margin: auto;
+      margin-top: 50px;
     }
 }
