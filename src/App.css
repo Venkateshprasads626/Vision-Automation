@@ -108,12 +108,8 @@ nav{
    margin-left: -80px;
  }
  
- ul li.active a{
-   color: #6FCF97;
- }
- .dot.active{
-   background-color: #6FCF97;
- }
+
+
  /* this is for mobile phones */
 @media screen and (max-width: 425px) {
   nav{

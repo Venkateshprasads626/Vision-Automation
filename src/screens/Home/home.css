@@ -435,9 +435,10 @@ h6{
   }
   .button{
     margin-top: 30px;
-    margin-left: 130px;
-    width: 120px;
-    height: 40px;
+    margin-left: 140px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
   }
   .card1:hover{
     transform: none;

@@ -15,7 +15,7 @@ const POS = () => (
     <div>
         <Header />
             <div className="POS">
-                <h1 className="pos-header">POS (Point of Sale-Retail)</h1>
+                <h1 className="pos-header">POS</h1>
                 <p className="header-caption3">In this Category we deal with Brands such as</p>
                 <div className="brands-categories11">
                     <div className="hp8">

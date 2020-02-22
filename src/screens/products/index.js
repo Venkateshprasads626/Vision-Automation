@@ -77,7 +77,7 @@ const products = () => (
                         </div>
                         <div className="card99">
                             <Link to="/Servers">
-                                <img src={type9} className="producttype9" alt="motherboard" />
+                                <img src={type9} className="producttype1" alt="motherboard" />
                                 <h6 className="caption9" style={{textAlign: "center"}}>SERVER & <br/>WORKSTATION</h6>
                             </Link>
                         </div>
@@ -90,7 +90,7 @@ const products = () => (
                         <div className="card102">
                             <Link to="/POS">
                                 <img src={type11} className="producttype11" alt="motherboard" />
-                                <h6 className="caption11" style={{textAlign: "center"}}>POS<br/>(Ponit of sale -Retail)</h6>
+                                <h6 className="caption11" style={{textAlign: "center"}}>POS</h6>
                             </Link>
                         </div>
                         <div className="card103">
