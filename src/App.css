@@ -65,6 +65,7 @@ nav{
   margin-top: 4px;
   margin-left: 6px;
   font-size: 20px;
+  color: black;
   
  }
  .fa-desktop{
@@ -107,7 +108,9 @@ nav{
    margin-top: -35px;
    margin-left: -80px;
  }
- 
+ .main-nav-active,.dot{
+   color: green;
+ }
 
 
  /* this is for mobile phones */
