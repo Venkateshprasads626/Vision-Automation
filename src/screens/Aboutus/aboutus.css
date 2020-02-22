@@ -85,3 +85,16 @@
         margin-top: 10px;
     }  
 }
+
+@media screen and (max-width: 375px) {
+    .aboutpage-content{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 15px;
+        text-align: center;
+        color: #000000;
+        margin-top: 10px;
+    } 
+}

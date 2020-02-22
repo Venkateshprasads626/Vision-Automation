@@ -413,3 +413,99 @@
   margin-left: 20px;
 }
 }
+
+@media screen and (max-width: 375px) {
+  .slide_viewer {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 98px;
+   
+}
+.testimony-data{
+  position: absolute;
+  font-size: 8.5px;
+  font-family: Poppins;
+  margin-left: 0px;
+  margin-top: 60px;
+  width: 500px;
+}
+.testimony-data2{
+  position: absolute;
+  font-size: 8.5px;
+  font-family: Poppins;
+  margin-left: 0px;
+  margin-top: 130px;
+}
+.testimony-data3{
+position: absolute;
+font-size: 8.5px;
+font-family: Poppins;
+margin-left: 0px;
+margin-top: 80px;
+}
+.testi1{
+  margin-left: 15px;
+}
+.testi2{
+  margin-top: -5px;
+  margin-left: 40px;
+}
+.testi3{
+  margin-top: -20px;
+  margin-left: 60px;
+}
+.testi44{
+  margin-top: -10px;
+  margin-left: 100px;
+}
+.testi4{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.testi5{
+  margin-top: -60px;
+  margin-left: 70px;
+}
+.testi6{
+  margin-top: -5px;
+  margin-left: 30px;
+}
+.testi7{
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.testi8{
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.testi9{
+  margin-top: -10px;
+  margin-left: 80px;
+}
+.testi99{
+  margin-top: -10px;
+  margin-left: 50px;
+}
+.testi10{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.testi11{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.testi12{
+  margin-top: -5px;
+  margin-left: 50px;
+}
+.testi13{
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.testi114{
+  margin-left: 20px;
+}
+}
