@@ -299,7 +299,9 @@ footer{
     }
   }
   @media screen and (max-width: 375px) {
-   
+   footer{
+     margin-top: 100px;
+   }
     .footercontent{
       margin-left: -160px;
     }
