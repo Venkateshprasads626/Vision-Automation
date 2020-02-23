@@ -69,21 +69,25 @@ height: 126px;
 }
 
 /* this is for computers */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .brands-categories10{
-        margin-left: 330px;
+
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .brands-categories10{
-        margin-left: 130px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .brands-categories10{
+@media screen and (min-width: 768px) {
+    .Graphicscard{
+        width: 100%;
         margin-left: 0px;
+        height: 430px;
+    }
+    .brands-categories10{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 50px;
     }
 }
 

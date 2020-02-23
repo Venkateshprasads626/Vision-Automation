@@ -73,6 +73,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .Motherboard{
+        width: 100%;
+        margin-left: 0px;
+        height: 460px;
+    }
     .motherboard-header{
        position: absolute;
        left: 0;

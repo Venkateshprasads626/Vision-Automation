@@ -63,7 +63,7 @@
     margin-top: 220px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .Printers{
         width: 80%;
         height: 55vh;
@@ -74,21 +74,27 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .Printer-header{
-        margin-left: -110px;
-    }
-    .brands-categories3{
-        margin-left: -30px;
-    }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+    .Printers{
+        width: 100%;
+        margin-left: 0px;
+        height: 480px;
+    }
     .brands-categories3{
-        margin-left: -160px;
+       left: 0;
+       right: 0;
+       position: absolute;
+       margin: auto;
+       margin-top: 90px;
+       margin-bottom: 100px;
+
     }
     .Printer-header{
-        margin-left: -180px;
+      left: 0;
+      right: 0;
+      position: absolute;
+      margin: auto;
     }
 }
 

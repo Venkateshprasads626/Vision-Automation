@@ -108,10 +108,10 @@ class Testimony extends Component{
                     <div class="slide">
                        
                         <div className="testimony-data">
-                            <p className="testi1">My experience working with Mr Hitesh Jain Vision Automation is very much a positive  <br/></p>
-                            <p className="testi2">one from 2010 to till date.I will be appreciating his professionalism towards </p><br/>
-                            <p className="testi3">swift service and quality product supplying. I look forward to many</p>
-                            <p className="testi44">more business opportunities in the future.</p>
+                            <p className="testi1">My experience working with Vision Automation is very much a positive  <br/></p>
+                            <p className="testi2">one from 2010 to till date.I will be appreciating his professionalism</p><br/>
+                            <p className="testi3">towards swift service and quality product supplying. I look forward </p>
+                            <p className="testi44">to many more business opportunities in the future.</p>
                             <p className="testi4" style={{color: "green"}}>- Mr Shreenivas, Manager IT operations</p>
                         </div>
                     </div>
@@ -119,10 +119,10 @@ class Testimony extends Component{
                         <div className="testimony-data2">
                             <p className="testi5">Its been long time we are working with Vision Automation,<br/></p>
                             <p className="testi6">It is a privilege for us to have Vision Automation as a valuable vendor partner.  </p><br/>
-                            <p className="testi7">I would like to appreciate you from the bottom of my heart for your significant support and</p>
-                            <p className="testi8">service to achieve all procurement activity (quality product ontime delivery and best price)</p>
-                            <p className="testi9"> which is commendable.I am very appreciative of your</p>
-                            <p className="testi99">assistance and am looking forward to continuing to work together.</p>
+                            <p className="testi7">I would like to appreciate you from the bottom of my heart for your significant</p>
+                            <p className="testi8">support and service to achieve all procurement activity </p>
+                            <p className="testi9">(quality product ontime delivery and best price) which is commendable.I am very </p>
+                            <p className="testi99">appreciative of your assistance and am looking forward to continuing to work together.</p>
                             <p className="testi10" style={{color: "green"}}>- Mr Pradeep P, Senior Procurement Manager</p>
                         </div>
                         </div>
@@ -130,7 +130,7 @@ class Testimony extends Component{
                           <div className="testimony-data3">
                             <p className="testi11">Have known VISION AUTOMATION for 10 years, They are fab in terms of the job, <br/></p>
                             <p className="testi12">result oriented and always executed their deliverables on time.  </p><br/>
-                            <p className="testi13">Very reliable & trustworthy it's a pleasure & joy to interact wuth them. </p>
+                            <p className="testi13">Very reliable & trustworthy it's a pleasure & joy to interact with them. </p>
                             <p className="testi114" style={{color: "green"}}>-Mr Devi Prasad, Senior VP, IT operations and Building management services.</p>
                           </div>  
                         </div>

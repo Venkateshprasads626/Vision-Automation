@@ -42,23 +42,25 @@
 }
 
 /* this is for computers */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .Servers{
         height: 60vh;
     }
-    .brands-categories9{
-        margin-left: 330px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .brands-categories9{
-        margin-left: 125px;
-    }
 }
 
-@media screen and (max-width: 768px) {
-    .brands-categories9{
+
+@media screen and (min-width: 768px) {
+    .Servers{
+        width: 100%;
         margin-left: 0px;
+        height: 460px;
+    }
+    .brands-categories9{
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        margin-top: 50px;
     }
 }
 

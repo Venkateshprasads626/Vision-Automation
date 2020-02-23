@@ -81,15 +81,18 @@
     }
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .Networking{
         width: 100%;
+        margin-left: 0px;
+        height: 480px;
     }
     .brands-categories6{
         position: absolute;
         left: 0;
         right: 0;
         margin: auto;
+        margin-top: 60px;
     }
 }
 

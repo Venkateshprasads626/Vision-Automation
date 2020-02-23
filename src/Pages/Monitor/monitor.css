@@ -83,14 +83,26 @@
 
 
 
+@media screen and (min-width: 1200px) {
+    .Monitor{
+        width: 80%;
+        height: 55vh;
+    }
+    
+}
+
 @media screen and (min-width: 768px) {
+    .Monitor{   
+        width: 100%;
+        margin-left: 0px;
+        height: 460px;
+    }
     .brands-categories2{
         position: absolute;
         left: 0;
         right: 0;
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 10%;    
+        margin-top: 100px;  
     }
     .monitor-header{
         position: absolute;
@@ -98,13 +110,6 @@
         right: 0;
         margin: auto;
     }
-}
-@media screen and (min-width: 1200px) {
-    .Monitor{
-        width: 80%;
-        height: 55vh;
-    }
-    
 }
 /* this is for mobile phones */
 @media screen and (max-width: 425px) {
