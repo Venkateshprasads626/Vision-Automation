@@ -10,6 +10,7 @@ const Contact = () => (
         <Header/>
             <div className="Contact">
             <div className="formbox">
+                <div className="formcontent">
                     <h1 className="formhead">Get connected</h1>
                     <hr className="formhr"></hr>
                     <img src={pic} className="pic"/>
@@ -29,7 +30,7 @@ const Contact = () => (
                                 <button type="submit" value="submit" className="submitbtn">Submit</button>
                             </form>
                         </div>
-              
+                        </div>
                 </div>
             </div>
         
