@@ -196,9 +196,3 @@ nav{
     width: 70%;
   }
 }
- 
-@media screen and (max-width: 660px) {
-  .nav-links{
-    width: 80%;
-  }
-}
