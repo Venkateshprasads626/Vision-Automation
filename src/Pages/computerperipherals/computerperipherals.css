@@ -326,9 +326,15 @@ margin-left: 550px;
 }
 
 @media screen and (max-width: 375px) {
+  html,body{
+    white-space: nowrap;
+  }
     .Computerperipherals{
-        height: 1020px;
-        margin-bottom: -50px;
+        width: 100%;
+        height: 130vh;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        background: red;
     }
   
     .peripherals-header{
