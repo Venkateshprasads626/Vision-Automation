@@ -33,10 +33,7 @@ const Footer = props => (
                       <li><Link to="/Aboutus">About-Us</Link></li>
                       <li><Link to="/Contact">Contact-Us</Link></li>
                     </ul>
-                    <div className="upangle">
-                    <span className="dot dot4"></span>
-                    <i class="fa fa-angle-up" aria-hidden="true"></i>
-                    </div>
+                 
                   </div>
             
             </div>
