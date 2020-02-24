@@ -171,9 +171,10 @@ footer{
     .navbar{
       margin-left: 290px;
       margin-top: 260px;
+      width: 50%;
     }
     .upangle{
-      margin-left: -100px;
+      margin-left: -80px;
     }
   }
   @media screen and (min-width: 1200px) {
@@ -291,7 +292,7 @@ footer{
     
     .navbar{
       margin-top: 120px;
-      width: 50%;
+      width: 60%;
       margin-left: 190px;
     }
     .upangle{

@@ -21,7 +21,7 @@ const Contact = () => (
                                 <input type="text" placeholder="Enter Name" name="name" className="name" />
                                 <p>Mobile No</p>
                                 <input type="number" placeholder="Enter Mobile No" name="phone" className="phone" />
-                                <i className="fa fa-phone" aria-hidden="true"></i>
+                                <i className="fa fa-phone phone1" aria-hidden="true"></i>
                                 <p>Email Address</p>
                                 <input type="email" placeholder="Enter Email Address" name="email" className="email"/>
 
