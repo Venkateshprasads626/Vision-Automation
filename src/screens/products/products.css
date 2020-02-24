@@ -525,6 +525,9 @@
   .caption7{
     margin-top: 15px;
   }
+  .caption8{
+    margin-top: -2px;
+  }
   .caption9{
     margin-top: -13px;
   }
@@ -557,9 +560,7 @@
     margin: auto;
   
   }
-  .card11,.card33,.card55,.card77,.card99,.card102{
-  
-  }
+ 
   .card22,.card44,.card66,.card88,.card101,.card103{
     margin-left: 170px;
   }
@@ -633,14 +634,15 @@
   .caption8{
     position: absolute;
     margin-top: -2px;
+    margin-left: 35px;
   }
   .caption9{
-    margin-top: -20px;
+    margin-top: -10px;
     line-height: 18px;
   }
   .caption11{
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 13px;
+    margin-top: 15px;
   }
 
 }
