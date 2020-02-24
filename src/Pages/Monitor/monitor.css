@@ -114,11 +114,12 @@
 /* this is for mobile phones */
 @media screen and (max-width: 425px) {
     .Monitor{
-        width: 80%;
+        width: 100%;
         height: 68vh;
         margin-bottom: 50px;
-        margin-left: 40px;
         margin-top: 60px; 
+       
+        margin-left: 0px;
     }
     .monitor-header{
         letter-spacing: 4px;

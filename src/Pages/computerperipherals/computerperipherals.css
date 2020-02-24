@@ -1,8 +1,7 @@
 .Computerperipherals{
-    width: 80%;
+    width: 100%;
     height: 90vh;
     margin-bottom: 50px;
-    margin-left: 160px;
     margin-top: 60px;
 
 }
@@ -24,7 +23,6 @@
     border: 3px solid rgba(79, 79, 79, 0.71);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
-    margin-left: 330px;
 }
 .dell2{
     position: absolute;
@@ -139,7 +137,7 @@ margin-left: 550px;
 
 @media screen and (min-width: 1200px) {
     .Computerperipherals{
-        width: 80%;
+        width: 100%;
         height: 110vh;
         
     }
@@ -169,9 +167,12 @@ margin-left: 550px;
 
 /* this is for mobile phones */
 @media screen and (max-width: 425px) {
+ 
     .Computerperipherals{
         width: 100%;
         height: 130vh;
+        margin-bottom: 50px;
+        margin-left: 0px;
     }
     .peripherals-header{
         text-align: center;
@@ -182,11 +183,6 @@ margin-left: 550px;
         font-size: 20px;
         line-height: 30px;
         color: #000000;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-top: -30px;
     }
 
     .brands-categories4{
@@ -257,7 +253,7 @@ margin-left: 550px;
     .toshiba{
         width: 180px;
         height: 100px;
-        margin-left: 220px;
+        margin-left: 210px;
         margin-top: 390px;
     }
     .toshibalogo{
@@ -278,7 +274,7 @@ margin-left: 550px;
         width: 200px;
         height: 150px;
         margin-top: 460px;
-        margin-left: 210px;
+        margin-left: 190px;
     }
     .segatelogo{
         width: 200px;
@@ -313,11 +309,10 @@ margin-left: 550px;
         height: 100px;
     }
     .sony{
-        margin-left: 240px;
+        margin-left: 220px;
         width: 180px;
         height: 100px;
         margin-top: 700px;
-
     }
     .sonylogo12{
         width: 180px;
@@ -331,6 +326,10 @@ margin-left: 550px;
 }
 
 @media screen and (max-width: 375px) {
+    .Computerperipherals{
+        overflow-x: hidden;
+        overflow-wrap: nowrap;
+    }
     .peripherals-header{
         font-size: 17px;
         text-align: center;
@@ -358,7 +357,6 @@ margin-left: 550px;
     .logitech{
         width: 110px;
         height: 40px;
-        background: red;
         margin-top: 150px;
     }
     .iballlogo{
@@ -400,14 +398,15 @@ margin-left: 550px;
         margin-top: 360px;
     }
     .toshiba{
-        width: 180px;
+        width: 170px;
         height: 100px;
-        margin-left: 200px;
+        margin-left: 180px;
         margin-top: 390px;
     }
     .toshibalogo{
         width: 180px;
         height: 100px;
+        margin-left: 10px;
     }
     .adata{
         width: 120px;
@@ -420,14 +419,15 @@ margin-left: 550px;
         height: 130px;
     }
     .seagate{
-        width: 200px;
-        height: 150px;
+        width: 120px;
+        height: 80px;
         margin-top: 460px;
-        margin-left: 210px;
+        margin-left: 220px;
     }
     .segatelogo{
         width: 120px;
         height: 150px;
+        margin-top: -30px;
     }
     .lenova{
         width: 110px;
@@ -442,12 +442,12 @@ margin-left: 550px;
     }
     .westerndigital{
         margin-top: 560px;
-        margin-left: 220px;
+        margin-left: 200px;
     }
     .westerndigital{
         width: 110px;
         height: 80px;
-        margin-left: 200px;
+        margin-left: 190px;
     }
     .westerndigitallogo{
         width: 110px;
@@ -464,11 +464,10 @@ margin-left: 550px;
         height: 100px;
     }
     .sony{
-        margin-left: 200px;
+        margin-left: 180px;
         width: 180px;
         height: 100px;
         margin-top: 700px;
-
     }
     .sonylogo12{
         width: 180px;

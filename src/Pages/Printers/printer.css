@@ -101,8 +101,9 @@
 @media screen and (max-width: 425px) {
     .Printers{
         height: 72vh;
-        width: 80%;
-        margin-left: 45px;
+        width: 100%;
+        margin-left: 0px;
+        
     }
     .Printer-header{
         margin-left: 10px;
