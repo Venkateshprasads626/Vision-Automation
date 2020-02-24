@@ -157,18 +157,10 @@ nav{
   
 
  
- 
 
 
 /* this is media query for pc */
-@media screen and (min-width: 768px) {
-  html,body{
-    white-space: nowrap;
-  }
-  .nav-links{
-    width: 75%;
-  }
-}
+
 
 @media screen and (min-width: 992px) {
   html,body{
@@ -199,6 +191,14 @@ nav{
   }
 }
 
-
-
-
+@media screen and (min-width: 768px){
+  .nav-links{
+    width: 70%;
+  }
+}
+ 
+@media screen and (max-width: 660px) {
+  .nav-links{
+    width: 80%;
+  }
+}

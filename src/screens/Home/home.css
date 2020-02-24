@@ -349,6 +349,55 @@ h6{
    }
 }
 
+@media screen and (max-width: 660px) {
+  .About{
+ 
+    height: 230px;
+    margin-top: -230px;
+  }
+  .cardh1{
+    font-size: 20px;
+  }
+  .aboutustext{
+    font-size: 10px;
+    line-height: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+  }
+  .card1,.card2,.card3,.card4{
+    width: 200px;
+    height: 200px;
+  }
+  .card1,.card3{
+    margin-left: 0px;
+  }
+  .card2,.card4{
+    margin-left: 250px;
+  }
+  .card4{
+    margin-top: -200px;
+  }
+  .categories{
+    margin-top: 30px;
+    height: 650px;
+  }
+  .cards{
+    width: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .button{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+}
+
+
+
 @media screen and (max-width: 425px) {
   .About{
     margin-top: -350px;

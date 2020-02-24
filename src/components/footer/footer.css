@@ -345,3 +345,46 @@ footer{
       margin-top: 30px;
     }
   }
+
+  @media screen and (max-width: 660px) {
+    .footercontent{
+      margin-left: -50px;
+    }
+    .secondhr{
+      width: 550px;
+    }
+    .upangle{
+      margin-left: -200px;
+    }
+    .box2{
+      margin-left: 10px;
+    }
+    .logo1{
+      width: 200px;
+      height: 80px;
+    }
+    .addresstext{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .contacttext{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .text1{
+      font-size: 10px;
+    }
+    .text2{
+      font-size: 10px;
+    }
+    .contact{
+      margin-left: 200px;
+    }
+    .navbar{
+      margin-left: 120px;
+      width: 50%;
+    }
+    .navbar li{
+      font-size: 10px;
+    }
+  }
