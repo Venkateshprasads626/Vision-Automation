@@ -238,7 +238,17 @@ footer{
     margin-left: -40px;
   }
 }
-
+/* @media screen and (max-width: 1024px) {
+  .footercontent{
+    margin-left: -60px;
+  }
+  .navbar{
+    margin-left: 270px;
+  }
+  .upangle{
+    margin-left: 10px;
+  }
+} */
 @media screen and (min-width: 2560px) {
   .footercontent{
     margin-left: 500px;
