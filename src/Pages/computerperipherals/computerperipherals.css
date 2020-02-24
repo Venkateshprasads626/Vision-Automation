@@ -346,10 +346,15 @@ margin-left: 550px;
         width: 110px;
         height: 70px;
         margin-left: 10px;
+      
     }
     .hp3{
-        margin-left: 210px;
-        margin-top: -100px;
+        margin-left: 230px;
+        margin-top: 10px;
+    
+    }
+    .hp3logo{
+        margin-left: 15px;
     }
     .logitechlogo{
         width: 110px;
@@ -363,7 +368,7 @@ margin-left: 550px;
         width: 50px;
     }
     .iball{
-        width: 70px;
+        width: 50px;
         margin-top: 140px;
         margin-left: 270px;
     }
@@ -386,6 +391,7 @@ margin-left: 550px;
         height: 80px;
         margin-left: 220px;
         margin-top: 280px;
+   
     }
     .transcendlogo{
         width: 110px;
@@ -402,6 +408,7 @@ margin-left: 550px;
         height: 100px;
         margin-left: 180px;
         margin-top: 390px;
+    
     }
     .toshibalogo{
         width: 180px;
@@ -421,8 +428,9 @@ margin-left: 550px;
     .seagate{
         width: 120px;
         height: 80px;
-        margin-top: 460px;
+        margin-top: 492px;
         margin-left: 220px;
+       
     }
     .segatelogo{
         width: 120px;
@@ -440,14 +448,13 @@ margin-left: 550px;
         width: 110px;
         height: 100px;
     }
-    .westerndigital{
-        margin-top: 560px;
-        margin-left: 200px;
-    }
+ 
     .westerndigital{
         width: 110px;
         height: 80px;
         margin-left: 190px;
+        margin-top: 560px;
+     
     }
     .westerndigitallogo{
         width: 110px;
@@ -464,10 +471,11 @@ margin-left: 550px;
         height: 100px;
     }
     .sony{
-        margin-left: 180px;
+        margin-left: 178px;
         width: 180px;
         height: 100px;
         margin-top: 700px;
+     
     }
     .sonylogo12{
         width: 180px;

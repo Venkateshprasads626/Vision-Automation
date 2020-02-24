@@ -35,7 +35,7 @@ const computerperipherals = () => (
                         <a href="" target="_blank"><img src={logo9} className="dell" alt="" /></a> 
                     </div>
                     <div className="hp3">
-                        <a href="" target="_blank"><img src={logo6} className="hp" alt="" /></a> 
+                        <a href="" target="_blank"><img src={logo6} className="hp3logo" alt="" /></a> 
                     </div>
                     <div className="lenova">
                         <a href="" target="_blank"><img src={logo16} className="lenovalogo" alt="" /></a> 
