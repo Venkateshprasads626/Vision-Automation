@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css'
 import logo from '../../logo.svg';
+import { Link } from  "react-router-dom" 
 
 const Footer = props => (
     <div className="Footer">
@@ -28,9 +29,9 @@ const Footer = props => (
                 </div>
                   <div className="navbar2">
                     <ul className="navbar">
-                      <li>Home</li>
-                      <li>About-Us</li>
-                      <li>Contact-Us</li>
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/Aboutus">About-Us</Link></li>
+                      <li><Link to="/Contact">Contact-Us</Link></li>
                     </ul>
                     <div className="upangle">
                     <span className="dot dot4"></span>
