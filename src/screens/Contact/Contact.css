@@ -182,6 +182,10 @@ input{
 
 /* this is for pc */
 @media screen and (min-width: 992px) {
+    .Contact{
+        height: 600px;
+        margin-bottom: 50px;
+    }
     .formbox{
         left: 0;
         right: 0;
