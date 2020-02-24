@@ -448,9 +448,9 @@
     margin: auto;
   }
   .listof-products{
-    height: 140vh;
+    height: 145vh;
     width: 100%;
-  
+    margin-bottom: 10px;
   }
   .card33{
     margin-top: 15px;
@@ -549,16 +549,19 @@
     margin-top: -130px;
   }
   .cards2{
+    margin-top: 10px;
+    width: 320px;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
+  
   }
   .card11,.card33,.card55,.card77,.card99,.card102{
-  margin-left: 150px;
+  
   }
   .card22,.card44,.card66,.card88,.card101,.card103{
-    margin-left: 320px;
+    margin-left: 170px;
   }
  
   .listof-products{

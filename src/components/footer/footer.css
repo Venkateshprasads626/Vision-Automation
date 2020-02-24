@@ -125,6 +125,7 @@ footer{
   }
  
   /* this is for pc */
+
   @media screen and (min-width: 768px) {
     footer{
       margin:0;
@@ -177,6 +178,7 @@ footer{
       margin-left: -80px;
     }
   }
+
   @media screen and (min-width: 1200px) {
     .footer{
       left: 0;
@@ -236,6 +238,7 @@ footer{
     margin-left: -40px;
   }
 }
+
 @media screen and (min-width: 2560px) {
   .footercontent{
     margin-left: 500px;
