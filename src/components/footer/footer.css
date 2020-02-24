@@ -124,64 +124,7 @@ footer{
     margin-top: 300px;
   }
  
-  /* this is for pc */
-  /* @media screen and (max-width: 1024px) {
-    .upangle{
-      margin-left: 10px;
-    }
-  } */
-  @media screen and (min-width: 768px) {
-    footer{
-      margin:0;
-      padding: 0em 0em 2em 0em;
-    }
-    .footercontent{
-      margin-left: -120px;
-    }
-    .box2{
-      margin-left: 210px;
-    }
-    .logo1{
-      width: 100px;
-      height: 99px;
-    }
-    .secondhr{
-      width: 600px;
-      margin-left: 250px;
-    }
-    .text1{
-      font-size: 12px;
-      margin-left: 340px;
-      margin-top: 35px;
-    }
-    .addresstext{
-      font-size: 12px;
-      line-height: 18px;
-      margin-left: 340px;
-    }
-    .text2{
-      font-size: 12px;
-      margin-left: 200px;
-      margin-top: 20px;
-    }
-    .contacttext{
-      font-size: 12px;
-      line-height: 18px;
-      margin-left: 200px;
-    }
-    .navbar li{
-      font-size: 16px;
-      margin-left: -20px;
-    }
-    .navbar{
-      margin-left: 290px;
-      margin-top: 260px;
-      width: 50%;
-    }
-    .upangle{
-      margin-left: -80px;
-    }
-  }
+
 
   @media screen and (min-width: 1200px) {
     .footer{
@@ -243,17 +186,59 @@ footer{
   }
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+  footer{
+    margin:0;
+    padding: 0em 0em 2em 0em;
+  }
   .footercontent{
-    margin-left: -60px;
+    margin-left: -100px;
+  }
+  .box2{
+    margin-left: 210px;
+  }
+  .logo1{
+    width: 100px;
+    height: 99px;
+  }
+  .secondhr{
+    width: 600px;
+    margin-left: 250px;
+  }
+  .text1{
+    font-size: 12px;
+    margin-left: 340px;
+    margin-top: 35px;
+  }
+  .addresstext{
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 340px;
+  }
+  .text2{
+    font-size: 12px;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .contacttext{
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 200px;
+  }
+  .navbar li{
+    font-size: 16px;
+    margin-left: -20px;
   }
   .navbar{
-    margin-left: 270px;
+    margin-left: 290px;
+    margin-top: 260px;
+    width: 50%;
   }
   .upangle{
-    margin-left: 10px;
+    margin-left: -80px;
   }
-} */
+}
+
 @media screen and (min-width: 2560px) {
   .footercontent{
     margin-left: 500px;
