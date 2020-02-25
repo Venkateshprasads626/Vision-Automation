@@ -24,7 +24,7 @@ const Footer = props => (
                   <p className="text2">CONTACT US</p>
                   <p className="contacttext">
                     CONTACT NUMBER - +91 9482824000<br/>
-                    E-MAIL - hitesh@visionautomation.com
+                    E-MAIL - hitesh@visionautomationblr.com
                   </p>
                 </div>
                   <div className="navbar2">

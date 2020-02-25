@@ -290,13 +290,14 @@ input{
 @media screen and (max-width: 375px) {
     
     .formhr{
-        margin-left: 105px;
+        margin-left: 90px;
+        margin-top: -15px;
     }
     .pic{
         margin-left: 65px;
     }
     .vl5{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .register-box{
         position: absolute;
