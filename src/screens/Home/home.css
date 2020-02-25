@@ -315,6 +315,7 @@ h6{
  }
  .categories{
    margin-top: 450px;
+   margin-bottom: 100px;
  }
  .t{
    margin-top: 30px;
@@ -359,6 +360,7 @@ h6{
  }
  .whatsapp1{
   margin-top: 740px;
+  margin-bottom: 100px;
 }
 }
 
@@ -399,6 +401,7 @@ h6{
    .categoriestext2{
      margin-left: 110px;
    }
+ 
 }
 
 /* @media screen and (max-width: 660px) {
