@@ -456,8 +456,8 @@
   .listof-products{
     height: 150vh;
     width: 100%;
-    margin-bottom: 50px;
-
+    margin-bottom: 100px;
+ 
   }
   .card33{
     margin-top: 15px;
@@ -575,7 +575,7 @@
   }
  
   .listof-products{
-    height: 120vh;
+    height: 130vh;
     width: 100%;
   }
   .producttype1,.producttype2,.producttype3,.producttype4{
