@@ -4,7 +4,16 @@ body{
   background: linear-gradient(to right, #49BD7A 14.77%, #459DAA 100%);
   overflow-x: hidden;
 }
-
+/* this is for whats app */
+.whatsappcard{
+    width: 340px;
+    height: 283px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+}
 
 
 nav{

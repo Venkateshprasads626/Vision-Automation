@@ -159,9 +159,54 @@ h6{
   margin-top: 11px;
 }
 
-
-
-
+.whatsapp{
+  width: 300px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 600px;
+}
+.whatsapp-text{
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: black;
+}
+.whatsapp-image{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -55px;
+}
+.fa-arrow-right{
+  margin-left: 228px;
+  position: absolute;
+  margin-top: -38px;
+  color: black;
+}
+.whatsapp1{
+  width: 300px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 600px;
+}
 @media screen and (min-width: 768px) {
   .About{
     width: 100%;
@@ -189,9 +234,10 @@ h6{
     margin: auto;
   }
   .categories{
-    height: 620px;
+    height: 720px;
     margin-bottom: 50px;
     margin-top: 20px;
+
   }
   .cards{
     width: 450px;
@@ -238,6 +284,9 @@ h6{
     .caption323{
       margin-top: -45px;
       text-align: center;
+    }
+    .whatsapp1{
+      margin-top: 580px;
     }
 }
 
@@ -308,6 +357,9 @@ h6{
  .caption323{
    margin-top: -10px;
  }
+ .whatsapp1{
+  margin-top: 740px;
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -523,6 +575,9 @@ h6{
     .caption323{
       margin-top: -16px;
     }
+    .whatsapp1{
+      margin-top: 400px;
+    }
   }
   
   @media screen and (max-width: 375px) {
@@ -599,6 +654,9 @@ h6{
       .caption2{
         margin-top: 2px
       }  
+      .whatsapp1{
+        margin-top: 350px;
+      }
   }
   
   

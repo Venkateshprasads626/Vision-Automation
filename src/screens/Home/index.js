@@ -8,6 +8,7 @@ import type1 from '../../Images/type1.svg';
 import type2 from '../../Images/type2.svg';
 import type3 from '../../Images/type3.svg';
 import type4 from '../../Images/type4.svg';
+import whatsapp from '../../Images/whatsapp.png';
 import { Link } from 'react-router-dom'
 import Banner from '../../components/Banner'   
 
@@ -63,9 +64,14 @@ const Home = () => (
                     </Link>
                     <Link to="/products"><button className="button" type="button">MORE</button></Link>  
                 </div>
-                
+                <div className="whatsapp1">
+                    <a href="https://wa.me/919482824000" target="_blank">
+                        <p className="whatsapp-text">To place Order/Queries</p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <img src={whatsapp} className="whatsapp-image" />
+                    </a>
+                </div>
             </div>
-
+          
 
             </div>
         

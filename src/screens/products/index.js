@@ -14,6 +14,7 @@ import type9 from '../../Images/type9.svg';
 import type10 from '../../Images/type10.svg';
 import type11 from '../../Images/type11.svg';
 import type12 from '../../Images/type12.svg';
+import whatsapp from '../../Images/whatsapp.png'
 import { Link } from 'react-router-dom'
 
 
@@ -99,7 +100,12 @@ const products = () => (
                                 <h6 className="caption12" style={{textAlign: "center"}}>SOFTWARES</h6>
                             </Link>
                         </div>
-                       
+                        <div className="whatsapp">
+                            <a href="https://wa.me/919482824000" target="_blank">
+                            <p className="whatsapp-text">To place Order/Queries</p><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <img src={whatsapp} className="whatsapp-image" />
+                    </a>
+                </div>
                     </div>
                 </div>
             </div>

@@ -287,7 +287,6 @@
     margin-top: 20px;
   }
   .listof-products{
-  
     height: 2100px;
   }
   .cards2{
@@ -296,6 +295,9 @@
     right: 0;
     margin: auto;
     width: 740px;
+  }
+  .whatsapp{
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -310,7 +312,7 @@
     margin-right: 50px;
   }
   .listof-products{
-    height: 200vh;
+    height: 210vh;
   }
   .cards2{
     width: 450px;
@@ -427,6 +429,10 @@
     .caption12{
       margin-top: 43px;
     }
+    .whatsapp{
+      margin-top: 50px;
+    }
+  
 }
 
 /* this is for mobile phones */
@@ -448,7 +454,7 @@
     margin: auto;
   }
   .listof-products{
-    height: 145vh;
+    height: 150vh;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -540,7 +546,9 @@
   .caption12{
     margin-top: 30px;
   }
-
+  .whatsapp{
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 375px) {

@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css'
 import logo from '../../logo.svg';
 import { Link } from  "react-router-dom" 
+import tenor from '../../Images/tenor.gif'
 
 const Footer = props => (
     <div className="Footer">
@@ -14,10 +15,10 @@ const Footer = props => (
                 <div className="address">
                   <p className="text1">ADDRESS:-</p>
                   <p className="addresstext">
-                    62-130, 2nd Main Rd,<br/>
-                    Chamrajpet, Bengaluru,<br/>
-                    Karnataka 560018<br/>
-                    India
+                  VISION AUTOMATION, NO 129,<br/>
+                  BETWEEN 8TH AND 9TH CROSS, <br/>
+                  CHAMARAJPET, BANGALORE-560018<br/>
+                  India
                   </p>
                 </div>
                 <div className="contact">
@@ -27,14 +28,14 @@ const Footer = props => (
                     E-MAIL - hitesh@visionautomationblr.com
                   </p>
                 </div>
+             
                   <div className="navbar2">
-                    <ul className="navbar">
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/Aboutus">About-Us</Link></li>
-                      <li><Link to="/Contact">Contact-Us</Link></li>
-                    </ul>
-                 
+                    <p className="ftext1">Made with</p>
+                    <img src={tenor}  className="tenor" />
+                    <p className="ftext2">in India</p>
+                    <p className="ftext3"><i class="fa fa-copyright" aria-hidden="true"></i> Proudly created by Rushbee Studios</p>
                   </div>
+
             
             </div>
       </footer>

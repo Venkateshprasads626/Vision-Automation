@@ -123,8 +123,7 @@ footer{
     margin-top: 300px;
   }
  
-
-
+  
   @media screen and (min-width: 1200px) {
     .footer{
       left: 0;
@@ -184,7 +183,93 @@ footer{
   .footercontent{
     margin-left: -20px;
   }
+  .tenor{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 260px;
+    margin-left: 320px;
+  }
+
+.ftext1{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 260px;
 }
+.ftext2{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 370px;
+}
+
+.ftext3{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 1000px;
+}
+}
+@media screen and (max-width: 1024px) {
+  .footercontent{
+    margin-left: -120px;
+  }
+  .box2{
+    margin-left: 150px;
+  }
+  .tenor{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 260px;
+    margin-left: 220px;
+  }
+
+.ftext1{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 260px;
+}
+.ftext2{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 370px;
+}
+
+.ftext3{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 750px;
+}
+} 
 @media screen and (max-width: 768px) {
   footer{
     margin:0;
@@ -202,7 +287,7 @@ footer{
   }
   .secondhr{
     width: 600px;
-    margin-left: 250px;
+    margin-left: 220px;
   }
   .text1{
     font-size: 12px;
@@ -224,27 +309,45 @@ footer{
     line-height: 18px;
     margin-left: 200px;
   }
-  .navbar li{
-    font-size: 16px;
-    margin-left: -20px;
+  .tenor{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 270px;
+    margin-left: 190px;
   }
-  .navbar{
-    margin-left: 290px;
-    margin-top: 260px;
-    width: 50%;
-  }
- .upangle{
-   display: none;
- }
+
+.ftext1{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 270px;
+}
+.ftext2{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 370px;
 }
 
-@media screen and (max-width: 1024px) {
-  .footercontent{
-    margin-left: -120px;
-  }
-  .box2{
-    margin-left: 150px;
-  }
+.ftext3{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 500px;
+}
 }
 
 
@@ -257,6 +360,45 @@ footer{
     width: 20%;
     margin-left: 450px;
   }
+  .tenor{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 260px;
+    margin-left: 840px;
+  }
+
+.ftext1{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 260px;
+}
+.ftext2{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 370px;
+}
+
+.ftext3{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 950px;
+}
 }
 
   /* this is for mobile phones */
@@ -298,21 +440,25 @@ footer{
       margin-left: -40px;
       line-height:10px;
     }
-    /* .secondhr{
+    .secondhr{
       margin-top: 110px;
       width: 380px;
       margin-left: 170px;
-    } */
-    .secondhr{
-      display: none;
+     
     }
+   
     .upangle{
       display: none;
     }
     .navbar{
       display: none;
     }
-
+    .address{
+      margin-left: -10px;
+    }
+    .contact{
+      margin-left: 423px;
+    }
 
     /* .navbar{
       margin-top: 120px;
@@ -347,30 +493,111 @@ footer{
       margin-left: -300px;
       margin-top: 30px;
     } */
+
+    .tenor{
+      background-color: green;
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 120px;
+      margin-left: 80px;
+    }
+  
+  .ftext1{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 123px;
+  }
+  .ftext2{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 255px;
+
+  }
+  
+  .ftext3{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 350px;
+  }
+  .whatsapp{
+    margin-top: 400px;
+  }
   }
   @media screen and (max-width: 375px) {
    footer{
-     margin-top: 100px;
+     margin-top: 50px;
    }
     .footercontent{
-      margin-left: -160px;
+      margin-left: -165px;
     }
     .secondhr{
       margin-top: 110px;
-      width: 250px;
-      margin-left: 220px;
+      width: 350px;
+      margin-left: 170px;
     }
     .text2{
-      margin-left: -50px;
+      margin-left: -42px;
     }
     .contacttext{
-      margin-left: -50px;
+      font-size: 7px;
+      margin-left: -42px;
     }
-/*   
-    .upangle{
-      margin-left: -350px;
-      margin-top: 30px;
-    } */
+    .address{
+      margin-left: -12px;
+    }
+    .tenor{
+      background-color: green;
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 120px;
+      margin-left: 78px;
+    }
+  
+  .ftext1{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 123px;
+  }
+  .ftext2{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 260px;
+
+  }
+  
+  .ftext3{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 320px;
+  }
   }
 
   /* @media screen and (max-width: 660px) {
